@@ -92,7 +92,17 @@ Because the entries remain on your device and are not accessible to the develope
 
 This policy may be updated as app features, security practices, external services or legal obligations change. The revision date will be shown on this page and, where appropriate, the app and store disclosures will be updated.
 
-## 13. Controller and contact
+## 13. Voluntary support and Pix contributions
+
+MyMoney may display a voluntary contribution option to support its creator Anselmo Eller. Contributions are not required to use the app, do not unlock any services or features, and do not provide digital rewards. The contributor chooses the amount.
+
+For Pix contributions, the app only displays a static QR code supplied by the recipient and allows users to copy the Pix payment code or the random Pix key. The user enters and authorizes the amount solely in their bank or payment provider app. MyMoney does not process transfers, collect the payer’s bank or card details, or automatically confirm payments.
+
+Pix is a Brazilian payment system denominated in Brazilian reais (BRL). Choosing another language, country or currency in MyMoney does not convert the payment or make Pix available at international banks. No international contribution method has been configured within the app at this time.
+
+The financial institution used may process transaction information, including payer and recipient information, according to its own privacy policy. This feature does not send those details to MyMoney. The recipient may see transaction information provided by their bank outside the app.
+
+## 14. Controller and contact
 
 App developer and contact person: Anselmo Eller. Brand used: MyMoney™. For questions, requests or privacy matters, contact the email address below.
 

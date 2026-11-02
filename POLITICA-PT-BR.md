@@ -92,7 +92,17 @@ Como os registros permanecem localmente e não são acessíveis ao desenvolvedor
 
 Esta política poderá ser atualizada para refletir novas funcionalidades, mudanças de segurança, serviços externos ou obrigações legais. A data de revisão será indicada nesta página e, quando aplicável, o aplicativo e a ficha da loja serão atualizados.
 
-## 13. Responsável e contato
+## 13. Contribuições voluntárias e Pix
+
+O MyMoney pode apresentar uma opção de contribuição voluntária diretamente ao criador Anselmo Eller. Ela não é necessária para usar o aplicativo, não ativa funções ou serviços e não oferece recompensas digitais. O valor é escolhido livremente pelo usuário.
+
+Para contribuições por Pix, o aplicativo apenas mostra um QR Code estático fornecido pelo beneficiário e permite copiar o código Pix Copia e Cola ou a chave Pix aleatória. O valor é informado e autorizado exclusivamente no aplicativo do banco ou prestador de pagamento do usuário. O MyMoney não processa transferências, não recolhe dados bancários ou de cartões do pagador e não confirma automaticamente o pagamento.
+
+O Pix é um sistema brasileiro em reais (BRL). A escolha de outro idioma, país ou moeda no MyMoney não converte o pagamento nem torna o Pix compatível com instituições estrangeiras. No momento, não há meio de pagamento internacional configurado dentro do aplicativo.
+
+A instituição financeira envolvida poderá tratar informações da transação, como dados do pagador e recebedor, conforme sua própria política de privacidade. Esses dados não são transmitidos ao MyMoney por essa funcionalidade. O destinatário da transferência pode visualizar informações de recebimento disponibilizadas pelo seu banco, fora do aplicativo.
+
+## 14. Responsável e contato
 
 Responsável pelo aplicativo: Anselmo Eller. Marca utilizada: MyMoney™. Para dúvidas, solicitações ou questões de privacidade, utilize o endereço eletrônico abaixo.
 
