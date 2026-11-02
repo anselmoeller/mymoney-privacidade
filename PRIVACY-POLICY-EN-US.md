@@ -1,7 +1,11 @@
 # Privacy Policy — MyMoney™
-Last updated: November 2, 2026
 
-MyMoney app — Android package ID: com.anspro.mymoney.app
+**Idioma:** en-US
+
+**Last updated:** November 2, 2026  
+**App:** MyMoney™  
+**Android package:** com.anspro.mymoney.app  
+**Privacy contact:** moneyproapp@gmail.com
 
 ## 1. Identity and scope
 
@@ -60,6 +64,10 @@ When you follow external links, such as the YouTube channel or this policy webpa
 
 This does not imply that Android, iOS, Google Play or independently visited external providers perform no processing of their own.
 
+The Share app option will let you send the public Google Play listing link when it becomes available. Until then, it only shows a message that the feature is being prepared. Once enabled, it will share the store URL through your device’s sharing menu; it does not automatically attach your expenses, notes, tasks or income records.
+
+When you visit this policy website, the hosting provider (GitHub Pages) and your browser may process technical connection information, such as IP addresses and access logs, under their own policies. If you contact us by email, your email service also processes that correspondence.
+
 ## 8. Profiles, retention and deletion
 
 Records remain in local storage for as long as you keep them in the app and that storage remains available. Each language, country and currency combination can have a separate database.
@@ -67,6 +75,8 @@ Records remain in local storage for as long as you keep them in the app and that
 You can delete selected categories in Settings → Clear Data. Deletion applies to the selected categories in the active profile; other profiles, your PIN and general preferences are not necessarily removed. To remove remaining app data, use the operating system’s storage/removal controls, bearing in mind that system-managed copies may follow other rules.
 
 The app does not provide online accounts or a remote account-deletion service. As the entries are stored on your device, the developer cannot remotely inspect, recover or erase them.
+
+Backup files that you save outside MyMoney are not automatically deleted when you clear app data, remove profiles or uninstall the app. To delete these copies, also check the device storage, cloud service or other destination app that you selected.
 
 ## 9. Backup and transfer of records
 
@@ -110,4 +120,5 @@ Privacy email: moneyproapp@gmail.com
 
 This policy applies to the app version described above. © denotes copyright; ™ identifies the brand and does not claim a registered trademark.
 
-© 2026 Anselmo Eller · MyMoney™. All rights reserved.
+
+© 2026 Anselmo Eller · MyMoney™.

@@ -1,7 +1,11 @@
 # Política de Privacidade — MyMoney™
-Última atualização: 2 de novembro de 2026
 
-Aplicativo MyMoney — identificador Android: com.anspro.mymoney.app
+**Idioma:** pt-BR
+
+**Última atualização:** 2 de novembro de 2026  
+**Aplicativo:** MyMoney™  
+**Identificador Android:** com.anspro.mymoney.app  
+**Contato de privacidade:** moneyproapp@gmail.com
 
 ## 1. Identificação e alcance
 
@@ -60,6 +64,10 @@ Ao tocar em links externos, como o canal do YouTube ou a página desta política
 
 Não declaramos a inexistência de tratamento realizado independentemente pelo Android, iOS, Google Play ou infraestrutura externa que o próprio usuário escolha acessar.
 
+Na seção Compartilhar aplicativo, será possível enviar o endereço público do MyMoney na Google Play quando ele estiver disponível. Enquanto o link não estiver publicado, a função mostra apenas uma mensagem de que está em preparação. Quando habilitada, ela compartilhará o endereço da loja pela ferramenta do próprio aparelho, sem anexar automaticamente despesas, anotações, tarefas ou rendas.
+
+Ao visitar o site desta política, o provedor de hospedagem (GitHub Pages) e o navegador poderão processar informações técnicas da conexão, como endereço IP e registros de acesso, conforme suas próprias políticas. Um contato por e-mail também será tratado pelo serviço de e-mail que você utilizar.
+
 ## 8. Perfis, retenção e exclusão
 
 Os registros permanecem no armazenamento local enquanto você os mantiver no aplicativo e enquanto esse armazenamento estiver disponível. Cada combinação de idioma, país e moeda pode possuir um banco independente.
@@ -67,6 +75,8 @@ Os registros permanecem no armazenamento local enquanto você os mantiver no apl
 Você pode excluir categorias de dados em Configurações → Limpeza de dados. Essa operação afeta as categorias selecionadas do perfil ativo; registros de outros perfis, PIN e preferências gerais não são necessariamente apagados. Para apagar também os dados locais restantes, utilize os mecanismos de armazenamento/remoção do sistema operacional, observando que cópias mantidas pelo próprio sistema podem seguir regras diferentes.
 
 Não há conta online do usuário nem serviço remoto de exclusão de contas nesta versão. Como os dados ficam no dispositivo, o desenvolvedor não consegue consultar, recuperar ou apagar remotamente os registros locais.
+
+Os arquivos de backup que você salvar fora do MyMoney não são apagados automaticamente ao limpar dados, excluir perfis ou desinstalar o aplicativo. Para remover essas cópias, procure-as também no armazenamento, serviço de nuvem ou aplicativo de destino escolhido por você.
 
 ## 9. Backup e transferência de dados
 
@@ -110,4 +120,5 @@ E-mail de privacidade: moneyproapp@gmail.com
 
 Esta política aplica-se à versão do aplicativo descrita acima. O aviso © identifica direitos autorais; ™ identifica a marca e não afirma que existe registro formal de marca.
 
-© 2026 Anselmo Eller · MyMoney™. Todos os direitos reservados.
+
+© 2026 Anselmo Eller · MyMoney™.
