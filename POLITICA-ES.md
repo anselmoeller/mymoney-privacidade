@@ -42,6 +42,8 @@ Las bases de datos locales con gastos, ingresos, notas y tareas se protegen medi
 
 El PIN opcional añade una restricción para abrir la interfaz. El cifrado de las bases de datos funciona incluso sin activar el PIN. El PIN y el código de recuperación se almacenan en un área protegida del dispositivo. Algunas preferencias generales, como el tema y el idioma, pueden no usar el mismo cifrado.
 
+El acceso opcional mediante huella digital u otra biometría fuerte compatible solo está disponible después de configurar un PIN. Android o iOS realiza la autenticación; MyMoney recibe únicamente el resultado y no captura, lee, almacena ni transmite imágenes de huellas, características biométricas ni plantillas biométricas. La aplicación solo guarda una preferencia local protegida que indica si se activó esta opción. Se puede seguir usando el PIN si se cancela la verificación, cambian las huellas registradas o se cambia de teléfono. El sistema puede aceptar cualquier biometría registrada en el dispositivo. La preferencia no se incluye en la copia portátil y debe activarse de nuevo en el teléfono nuevo.
+
 La seguridad no elimina todos los riesgos: dispositivos comprometidos, acceso a un teléfono desbloqueado, contenido mostrado en pantalla y notificaciones visibles pueden exponer información. Ninguna medida de seguridad es infalible.
 
 ## 6. Notificaciones y permisos
@@ -66,13 +68,15 @@ Puedes eliminar categorías seleccionadas desde Configuración → Limpieza de d
 
 La aplicación no ofrece cuentas en línea ni un servicio remoto para eliminarlas. Como los registros permanecen en el dispositivo, el desarrollador no puede consultarlos, recuperarlos ni borrarlos a distancia.
 
-## 9. Copias de seguridad y riesgo de pérdida
+## 9. Copia de seguridad y transferencia de datos
 
-La configuración actual para Android desactiva la copia automática de los datos de la aplicación. Esta versión no incluye sincronización en línea ni exportación de copias cifradas recuperables mediante contraseña.
+MyMoney permite crear un archivo portátil de copia de seguridad protegido con cifrado AES-256-GCM. Una contraseña de entre 12 y 128 caracteres se utiliza para derivar la clave mediante scrypt. El archivo puede incluir todos los perfiles con finanzas, ingresos, notas y tareas. No se incluyen el PIN de acceso, el código de recuperación ni la clave de cifrado local del dispositivo.
 
-Desinstalar la aplicación, borrar sus datos, cambiar de dispositivo o perder la clave de cifrado puede dejar los registros inaccesibles de forma permanente. El código de recuperación sirve para restablecer el PIN de entrada; no restaura bases de datos eliminadas ni recupera una clave de cifrado perdida.
+La aplicación envía el archivo al menú de compartir del dispositivo. Tú eliges dónde guardarlo, por ejemplo en Archivos, Google Drive u otro servicio. MyMoney no transmite automáticamente estos registros al desarrollador ni conserva copias en servidores propios. El destino que elijas puede almacenar y procesar el archivo según sus propias condiciones y políticas.
 
-El funcionamiento de copias, restauraciones y almacenamiento seguro puede variar según la plataforma y la versión del sistema operativo.
+Para restaurar, selecciona el archivo e introduce su contraseña original. La aplicación valida su autenticidad y estructura antes de importar. Los registros de perfiles con el mismo idioma, país y moneda pueden sustituirse previa confirmación. La copia de seguridad automática nativa de Android sigue desactivada.
+
+El usuario es responsable de elegir un lugar seguro, comprobar que el archivo se guardó realmente, proteger la contraseña y mantener las copias actualizadas. La aplicación no puede recuperar contraseñas olvidadas ni archivos perdidos. Recomendamos probar la restauración antes de borrar datos o cambiar de dispositivo. Estas precauciones no eliminan las obligaciones legales del desarrollador en materia de seguridad y transparencia.
 
 ## 10. Niños y adolescentes
 

@@ -42,6 +42,8 @@ Local databases containing expenses, income, notes and tasks are protected with 
 
 The optional PIN adds a restriction on opening the app interface. Database encryption is active whether or not you enable PIN access. The PIN and recovery code are stored in a protected area on the device. General settings such as theme and language may not use the same encryption as the databases.
 
+Optional fingerprint or other compatible strong biometric sign-in is available only after a PIN is set up. Android or iOS performs the authentication; MyMoney receives only the result and does not capture, read, store or transmit fingerprint images, biometric characteristics or biometric templates. The app only stores a protected local preference indicating whether this option is enabled. PIN sign-in remains available, including when a prompt is cancelled, enrolled biometrics change or you move to a different phone. Any biometric enrolled in the phone operating system may be accepted by the system. This preference is not included in the portable backup and must be enabled again on a new device.
+
 Security cannot eliminate every risk: compromised devices, access to an unlocked phone, information shown on-screen and visible notifications can expose content. No security measure is infallible.
 
 ## 6. Notifications and permissions
@@ -66,13 +68,15 @@ You can delete selected categories in Settings → Clear Data. Deletion applies 
 
 The app does not provide online accounts or a remote account-deletion service. As the entries are stored on your device, the developer cannot remotely inspect, recover or erase them.
 
-## 9. Backups and risk of data loss
+## 9. Backup and transfer of records
 
-The current Android configuration disables automatic app-data backup. This version has no online synchronization or password-recoverable encrypted backup export.
+MyMoney allows users to create a portable backup file protected by AES-256-GCM encryption. A password of 12 to 128 characters derives an encryption key through scrypt. The file may include all financial, income, notes and tasks records across every profile. The sign-in PIN, recovery code and device-local encryption key are not included.
 
-Uninstalling the app, clearing its data, changing devices or losing the encryption key may make records permanently inaccessible. The recovery code can reset your sign-in PIN; it cannot restore deleted financial databases or recover a lost database encryption key.
+The app passes the file to the device sharing interface. You choose its destination, such as local Files, a cloud service such as Google Drive, or another app. MyMoney does not automatically send your records to the developer or keep a copy on its own servers. Any destination you select may store and handle the backup under its own terms and privacy practices.
 
-System backups, restoration and secure storage behavior may vary by platform and operating system version.
+To restore, select the backup file and enter its original password. The app checks authenticity and structure before importing. Records from matching language, country and currency profiles can be replaced after confirmation. Android native automatic backup remains disabled.
+
+You are responsible for choosing a safe place to keep the copy, verifying that it was actually saved, protecting the backup password, and keeping backups current. The app cannot recover a forgotten password or lost file. We recommend testing a restore before erasing records or replacing a device. These user precautions do not remove the developer’s applicable legal duties concerning security and transparency.
 
 ## 10. Children and teenagers
 
