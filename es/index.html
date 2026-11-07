@@ -19,7 +19,7 @@
 <p>Conoce cómo se utiliza y protege tu información.</p>
 </div></header>
 <main class="content"><article class="paper">
-<div class="meta"><div><strong>Última actualización:</strong> 4 de noviembre de 2026</div><div>Aplicación MyMoney — identificador Android: com.anspro.mymoney.app</div><div><strong>Contacto de privacidad:</strong> moneyproapp@gmail.com</div></div>
+<div class="meta"><div><strong>Última actualización:</strong> 6 de noviembre de 2026</div><div>Aplicación MyMoney — identificador Android: com.anspro.mymoney.app</div><div><strong>Contacto de privacidad:</strong> moneyproapp@gmail.com</div></div>
 <section aria-labelledby="section-1"><h2 id="section-1">1. Identificación y alcance</h2>
 <p>Esta Política de Privacidad describe la aplicación móvil MyMoney™, que también puede mostrarse como MeuDinheiro o MiDinero según el idioma elegido. La aplicación es desarrollada por Anselmo Eller y utiliza el identificador Android com.anspro.mymoney.app.</p>
 <p>MyMoney es una herramienta de organización personal. Permite registrar y consultar información financiera y cotidiana, pero no es un banco, una institución financiera, un proveedor de pagos, una plataforma de inversión ni un servicio de consulta de cuentas bancarias.</p>
@@ -29,7 +29,7 @@
 <ul>
 <li>Control financiero: sueldo o cantidad mensual de referencia, gastos, facturas, vencimientos, estado de pago, cuotas y gastos recurrentes.</li>
 <li>Mis ingresos: fuentes de ingresos, importes previstos y recibidos, fechas, descripciones y observaciones.</li>
-<li>Notas personales: títulos y textos escritos por el usuario.</li>
+<li>Notas personales: títulos, textos y archivos de audio cuando decides grabar notas de voz.</li>
 <li>Lista de tareas: títulos, descripciones y estado de realización.</li>
 <li>Mi historia (Pro): textos del diario y fechas y horas de los registros; la aplicación no guarda grabaciones de audio.</li>
 <li>Mi plan de ahorro (Pro): meta, cantidades ahorradas e historial de aportaciones.</li>
@@ -40,11 +40,12 @@
 </section>
 <section aria-labelledby="section-3"><h2 id="section-3">3. Finalidad del uso de los datos</h2>
 <p>Los registros se utilizan para mostrar información, organizar facturas, calcular totales y saldos a partir de tus cantidades, elaborar gráficos, buscar contenido, gestionar tareas e ingresos, separar perfiles por idioma/país/moneda y programar recordatorios locales de vencimiento.</p>
-<p>Los importes solo se convierten entre perfiles cuando tú lo solicitas, usando el tipo de cambio que proporciones. La aplicación no conecta automáticamente con bancos, no consulta extractos ni obtiene cotizaciones en tiempo real.</p>
+<p>Los importes se convierten entre perfiles solo cuando lo solicitas e indicas el tipo de cambio. Por separado, la tarjeta informativa del menú consulta cotizaciones de referencia por internet, sin modificar los importes guardados. La aplicación no accede automáticamente a cuentas ni extractos bancarios.</p>
 </section>
 <section aria-labelledby="section-4"><h2 id="section-4">4. Almacenamiento local y transmisión</h2>
 <p>En la versión revisada, los datos de finanzas, ingresos, notas y tareas se guardan en el dispositivo. La aplicación no exige una cuenta en línea ni sincroniza estos registros con servidores del desarrollador.</p>
-<p>El código actual no contiene mecanismos propios identificados que envíen automáticamente estos registros a Anselmo Eller, publicidad conductual ni herramientas de análisis del comportamiento. Google Play, el sistema operativo y las páginas externas funcionan con sus propias políticas.</p>
+<p>La aplicación no envía automáticamente registros financieros, textos, grabaciones ni diarios al desarrollador o a redes publicitarias. La versión gratuita integra Google AdMob y la gestión de consentimiento UMP. Estos servicios pueden tratar datos técnicos del dispositivo y la conexión (como dirección IP, identificadores publicitarios cuando se permitan, interacciones con anuncios y diagnósticos), según las políticas de Google y las opciones de privacidad aplicables. Los anuncios se ocultan para usuarios Pro verificados.</p>
+<p>MiDinero puede consultar Google Play para comprobar si existen versiones nuevas y ofrecer actualizaciones en la aplicación. Google Play Core trata la información técnica necesaria, como la versión instalada y características del dispositivo, conforme a las condiciones de Google. MiDinero no transmite registros financieros, notas ni audios para buscar actualizaciones.</p>
 <p>La información que se procesa exclusivamente en el dispositivo no se envía por ese solo motivo al desarrollador. Si en el futuro se añaden transmisiones o integraciones externas, actualizaremos esta política y las declaraciones de la tienda.</p>
 </section>
 <section aria-labelledby="section-5"><h2 id="section-5">5. Seguridad y cifrado</h2>
@@ -57,13 +58,17 @@
 <p>Si activas los avisos, MyMoney podrá solicitar permiso para mostrar notificaciones. Los recordatorios de vencimiento se programan localmente y pueden mostrar el nombre de una factura y la información de vencimiento en la pantalla o en el centro de notificaciones.</p>
 <p>Puedes ajustar o desactivar los avisos en Configuración y revocar el permiso desde los ajustes del dispositivo. El sistema operativo controla la entrega y visibilidad de las notificaciones.</p>
 </section>
-<p><strong>Cámara e imágenes en Notas personales:</strong> cuando eliges Digitalizar nota, la aplicación solicita acceso a la cámara o abre el selector de imágenes. El reconocimiento de texto se ejecuta en el dispositivo. Solo el texto que decidas guardar forma parte de la nota; no se adjuntan fotografías a la base de datos. La cámara o el selector pueden crear archivos temporales gestionados por el sistema. No se envían imágenes a servicios de OCR en línea.</p>
-<p><strong>Cotizaciones en el menú:</strong> con conexión, la aplicación consulta tasas de referencia públicas en la API Frankfurter, utilizando solo los códigos de moneda necesarios. No se transmiten importes de cuentas, notas ni registros financieros personales. Sin conexión o cotización válida, la tarjeta permanece oculta.</p>
+<p>Grabaciones de voz en Notas personales: al pulsar Añadir nota de voz, la aplicación solicita permiso para usar el micrófono y guarda una grabación en el almacenamiento privado del dispositivo. La transcripción es editable y se intenta automáticamente desde el archivo únicamente en sistemas compatibles (Android 13 o posterior e iOS). El servicio de reconocimiento del sistema podría procesar el audio bajo las políticas de su proveedor. En Android 11 puedes escribir la transcripción manualmente. Los archivos de audio se guardan por separado de la base cifrada de textos y no usan allí el mismo cifrado AES-256-GCM. Las nuevas copias de seguridad cifradas de versión 2 incluyen los archivos de audio junto con las notas. Si falta un archivo o se supera el límite de 24 MB, la exportación se interrumpe sin crear una copia incompleta. Las copias anteriores de versión 1 no incluían grabaciones. Al borrar una nota, se intenta eliminar también el audio. Confirma que la copia se ha guardado y prueba su restauración antes de borrar datos o cambiar de móvil. Puedes escribir notas sin micrófono.</p>
+<p>Exportación de Mi historia: la exportación mensual o anual crea localmente un TXT legible con los textos y fechas. Tú decides si lo compartes o guardas fuera de la app; los archivos externos no están protegidos por el cifrado de la base de datos.
+</p>
+<p><strong>Cámara e imágenes en Notas personales:</strong> cuando eliges Digitalizar nota, la aplicación solicita acceso a la cámara o abre el selector de imágenes. El reconocimiento de texto se ejecuta en el dispositivo. Solo el texto que decidas guardar forma parte de la nota; no se adjuntan fotografías a la base de datos. La aplicación intenta borrar las copias temporales de imágenes de su propia caché después del reconocimiento. El sistema operativo puede conservar otros archivos temporales bajo su control. No se envían imágenes a servicios de OCR en línea.</p>
+<p><strong>Cotizaciones en el menú:</strong> con conexión, la aplicación consulta tasas de referencia públicas de la API Frankfurter y solo envía los códigos de moneda necesarios. No se envían importes, notas ni registros financieros. Como en cualquier consulta por internet, el proveedor puede recibir datos técnicos de la conexión, como la dirección IP y la hora, según su propia política. Sin conexión o sin una cotización válida, la tarjeta no aparece. Los valores son orientativos.</p>
 <section aria-labelledby="section-7"><h2 id="section-7">7. Compartición de datos y terceros</h2>
 <p><strong>Voz en el diario:</strong> al tocar el micrófono, se solicita permiso para utilizarlo y acceder al reconocimiento de voz. El texto reconocido se guarda en la base protegida del perfil; MiDinero no conserva archivos de audio. Según el dispositivo y el servicio de reconocimiento elegido por el sistema, fragmentos de la voz pueden ser procesados por un proveedor externo (como el servicio de voz del sistema), posiblemente con conexión a internet. Ese tratamiento depende de la política y la configuración del proveedor. Puedes escribir sin conceder esos permisos.</p>
 <p>La versión revisada no incluye una función que comparta automáticamente tus registros financieros y personales con el desarrollador, anunciantes o redes sociales.</p>
 <p>Cuando abres enlaces externos, como el canal de YouTube o esta página de privacidad, el navegador o servicio externo puede tratar datos técnicos de acceso según su propia política. Esto no significa que MyMoney cargue automáticamente tus registros financieros.</p>
 <p>Lo anterior no significa que Android, iOS, Google Play o los proveedores externos que visites no realicen tratamientos independientes.</p>
+<p><strong>Compra Pro:</strong> al comprar o restaurar Pro, Google Play o la tienda del dispositivo procesa el pago y puede tratar información de la transacción según sus propias condiciones. La aplicación comprueba el estado de la compra para activar Pro; no recibe el número completo de tu tarjeta bancaria.</p>
 </section>
 <section aria-labelledby="section-8"><h2 id="section-8">8. Perfiles, conservación y eliminación</h2>
 <p>Los registros permanecen almacenados localmente mientras los conserves en la aplicación y el almacenamiento siga disponible. Cada combinación de idioma, país y moneda puede tener una base de datos distinta.</p>
