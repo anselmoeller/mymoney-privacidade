@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="How MyMoney 1.0.8 uses, protects, and lets you control your data.">
+<meta name="description" content="How MyMoney 1.0.8 uses, protects, and lets you control information.">
 <meta name="theme-color" content="#216C36">
 <title>Privacy Policy | MyMoney™</title>
 <link rel="icon" href="../assets/logo.png" type="image/png">
@@ -12,66 +12,54 @@
 <body id="top">
 <header class="hero"><div class="shell">
 <div class="brand"><img src="../assets/logo.png" alt="" width="66" height="66"><div><strong>MyMoney™</strong><small>com.anspro.mymoney.app · 1.0.8</small></div></div>
-<nav class="languages" aria-label="Language / idioma"><a href="../" lang="pt" >Português</a> <a href="{prefix}en/" lang="en" aria-current="page">English</a> <a href="{prefix}es/" lang="es" >Español</a></nav>
+<nav class="languages" aria-label="Language / idioma"><a href="../" lang="pt" >Português</a> <a href="./" lang="en" aria-current="page">English</a> <a href="../es/" lang="es" >Español</a></nav>
 <h1>Privacy Policy</h1>
-<p>How MyMoney 1.0.8 uses, protects, and lets you control your data.</p>
+<p>How MyMoney 1.0.8 uses, protects, and lets you control information.</p>
 </div></header>
 <main class="content"><article class="paper">
-<div class="meta"><div><strong>Last updated: November 8, 2026</strong></div><div>MyMoney™ 1.0.8 · Android: com.anspro.mymoney.app</div><div>Developer: Anselmo Eller</div></div>
-<section aria-labelledby="section-1"><h2 id="section-1">1. App and purpose</h2>
-<p>This policy applies to MyMoney™ (also shown as MeuDinheiro or MiDinero), developed by Anselmo Eller, Android package <code>com.anspro.mymoney.app</code>, version 1.0.8. The app helps users organize personal expenses, income, notes, voice recordings, tasks, journals, and savings plans. It is not a bank, brokerage, or bank payment service.</p>
+<div class="meta"><div><strong>Last updated: November 9, 2026</strong></div><div>MyMoney™ 1.0.8 · Android: com.anspro.mymoney.app</div><div>Developer: Anselmo Eller</div></div>
+<h2 id="section-1">1. App and purpose</h2>
+<p>This policy applies to MyMoney™ (also shown as MeuDinheiro or MiDinero), developed by Anselmo Eller, Android package com.anspro.mymoney.app, version 1.0.8. The app helps users organize personal expenses, income, notes, voice recordings, tasks, journals, and savings plans. It is not a bank, brokerage, or bank payment service.</p>
 <p>Core personal records are stored locally. No online developer account is required to create or store them.</p>
-</section>
-<section aria-labelledby="section-2"><h2 id="section-2">2. Information you enter</h2>
+<h2 id="section-2">2. Information you enter</h2>
 <p>Depending on the features you use, MyMoney stores financial amounts and dates, payment status, income sources, tasks and reminders, note text, journal entries, savings goals, audio recordings, text recognized from photos, and language, region, currency, appearance, and access preferences.</p>
 <p>The optional sign-in PIN must be 8-to-16-digit. A registered PIN is also required for protected backup operations and entry to the audio management screen. Please do not store banking passwords or complete card numbers in notes.</p>
-</section>
-<section aria-labelledby="section-3"><h2 id="section-3">3. Local storage and security</h2>
+<h2 id="section-3">3. Local storage and security</h2>
 <p>Structured profile records, including financial entries, income, text notes, and tasks, are encrypted at rest using AES-256-GCM. Encryption keys are kept in operating-system-protected secure storage. Some interface preferences use different storage protections.</p>
 <p>Recorded audio files are held in the app-private area but are not automatically encrypted in the same way as structured databases. PIN and recovery code protection and biometric authentication rely on device security mechanisms. MyMoney does not collect or store fingerprint templates.</p>
 <p>No security control eliminates all risk, particularly on modified or unprotected devices.</p>
-</section>
-<section aria-labelledby="section-4"><h2 id="section-4">4. Voice, transcription, camera, and OCR</h2>
-<p>With microphone permission, you can record voice notes locally. Speech recognition and dictation may use the device operating system or third-party speech services, which may process audio over a network depending on device configuration. Availability varies by Android/iOS version, language, and device.</p>
+<h2 id="section-4">4. Voice, transcription, camera, and OCR</h2>
+<p>With microphone permission, you can record voice notes locally. Transcribing a previously recorded audio file, when supported, explicitly requires on-device recognition and does not permit network-based audio processing. The action appears only when the system reports a compatible installed local language model; audio format support may still vary. Live dictation is separate and may use operating-system or third-party speech services that process speech over a network depending on device configuration. Availability varies by Android/iOS version, language, and device.</p>
 <p>When you take or select a photo to scan text, OCR runs on your device. The app does not attach the original image to the saved note, and attempts to remove its temporary image files; the OS or other apps may retain their own copies. Only text you decide to save becomes a note.</p>
 <p>You can select and delete multiple text or audio notes. Deleting local records does not delete copies you previously shared or exported.</p>
-</section>
-<section aria-labelledby="section-5"><h2 id="section-5">5. Backups and exports</h2>
-<p>The developer does not offer automatic cloud backups, and Android automatic app-data backup is disabled. Current version-3 data backups use AES-256-GCM encryption with a scrypt-derived key based on your PIN; they do not include audio recordings. Compatible earlier version-1/2 backup formats can still be imported.</p>
-<p>Audio can be exported separately as PIN-encrypted <code>.myaudio</code> files or <code>.myaudiopack</code> bundles. Restore the matching data backup before importing the audio archive. Directly shared audio and journal TXT exports are not automatically protected by the app database encryption.</p>
+<h2 id="section-5">5. Backups and exports</h2>
+<p>The developer does not offer automatic cloud backups, and Android system app-data backup remains disabled. Portable data backups (v3) use AES-256-GCM and scrypt. Manual backups use your sign-in PIN. MyMoney Pro users can enable automatic offline backups to a local Android folder they choose (Documents/SD card), with an independent randomly generated 16-digit recovery key. The key is held in local secure storage while enabled, is not included in backup files or sent to the developer, and must be written down for recovery after reinstalling. The app attempts backups while open and when resumed, without guaranteeing execution when closed. The .mymoney data files do not include audio; the optional automatic setting creates separate encrypted .myaudiopack archives per profile. Restore the data file first, then import the audio packs. Previously verified copies are preserved if a new backup fails, and older copies can be removed according to retention preferences. Compatible earlier v1/v2 formats remain supported.</p>
+<p>Audio can be exported separately as PIN-encrypted .myaudio files or .myaudiopack bundles. Restore the matching data backup before importing the audio archive. Directly shared audio and journal TXT exports are not automatically protected by the app database encryption.</p>
 <p>You choose the destination for exported files. Uninstalling the app, clearing app storage, losing your PIN or losing your backup files may make your information unrecoverable. The app recovery code cannot decrypt a separately exported encrypted file.</p>
-</section>
-<section aria-labelledby="section-6"><h2 id="section-6">6. Ads and privacy choices</h2>
-<p>In the free version, Google AdMob may serve advertising. Depending on device, consent choices, and Google policies, advertising providers may collect or share IP address, device and advertising identifiers, ad interaction metrics, and diagnostics for delivery, measurement, and fraud prevention. Google’s UMP consent platform may present privacy controls.</p>
-<p>Recognized MyMoney Pro users do not see advertising banners. This does not prevent independent processing by Google Play or technical purchase verification. MyMoney does not upload the content of your finances, notes, or audio to advertising services.</p>
-</section>
-<section aria-labelledby="section-7"><h2 id="section-7">7. MyMoney Pro purchases and fraud prevention</h2>
+<h2 id="section-6">6. Ads and privacy choices</h2>
+<p>In the free version, Google AdMob may serve advertising. Depending on device, consent choices, and Google policies, advertising providers may collect or share IP address, device and advertising identifiers, ad interaction metrics, and diagnostics for delivery, measurement, and fraud prevention. The app uses Google’s User Messaging Platform (UMP) to refresh privacy choices and display consent messages where required in your region. It checks whether UMP permits ad requests before requesting ads. Where Google requires an ongoing choice, <strong>Ad Preferences</strong> appears in Settings. Banner requests are configured for non-personalized advertising; nevertheless, technical data may still be processed for ad delivery, measurement, security, and fraud prevention. If required advertising permission is unavailable, you can continue using personal and financial features.</p>
+<p>Recognized MyMoney Pro users do not see advertising banners. The Google Android SDK applies advertising and age-related treatment settings. This does not prevent independent processing by Google Play or technical purchase verification. MyMoney does not upload the content of your finances, notes, or audio to advertising services.</p>
+<h2 id="section-7">7. MyMoney Pro purchases and fraud prevention</h2>
 <p>Google Play processes payments for the permanent MyMoney Pro product. The app does not receive your full payment card number. To check or restore entitlement, the app sends the product identifier, Google Play purchase token, randomly generated request identifier and temporary Play Integrity token over HTTPS to the MyMoney Pro Verifier hosted on Google Cloud.</p>
-<p>The server checks ownership, purchase state, and acknowledgement through the Google Play Developer API. It receives no PIN, financial entries, private notes, or voice recordings. Google Play, Play Integrity, and Google Cloud may independently process technical security information, IP addresses, and request logs for operational or anti-fraud purposes.</p>
+<p>The server checks ownership, purchase state, and acknowledgement through the Google Play Developer API. It receives no PIN, financial entries, private notes, or voice recordings. Google Play, Play Integrity, and Google Cloud may independently process technical security information, IP addresses, and request logs for operational or anti-fraud purposes. Retention periods for technical logs and any international transfers depend on the providers’ systems, settings, and applicable terms. Verification helps confirm legitimate entitlements and prevent fraud.</p>
 <p>Entitlement may be rechecked after device changes, refunds, or restoration. Play Integrity checks can limit purchases on uncertified devices or devices that do not meet security requirements.</p>
-</section>
-<section aria-labelledby="section-8"><h2 id="section-8">8. Notifications and permissions</h2>
-<p>With your authorization, MyMoney schedules local reminders that may show the titles and due dates of bills, notes, or tasks in system notifications. You can disable reminders in MyMoney or Android settings. Exact delivery depends on device permissions and battery restrictions.</p>
-<p>Camera, microphone, notifications, biometrics, and one-time file selection permissions are requested only when relevant functions are used. The app does not automatically browse your photo library or files.</p>
-</section>
-<section aria-labelledby="section-9"><h2 id="section-9">9. Reference exchange rates and external services</h2>
+<h2 id="section-8">8. Notifications and permissions</h2>
+<p>With your authorization, MyMoney schedules local reminders that may show the titles and due dates of bills, notes, or tasks in system notifications. Depending on your device settings, some information may appear on the lock screen. You can disable reminders in MyMoney or Android settings. Exact delivery depends on device permissions and battery restrictions.</p>
+<p>Camera, microphone, notifications, biometrics and individual file selection are requested only when needed. If you opt in to Pro automatic offline backups, you grant persistent access only to the local folder you selected for writing and verifying copies; this can be revoked in Android settings or by turning off the feature. MyMoney does not browse unrelated files or your photo library.</p>
+<h2 id="section-9">9. Reference exchange rates and external services</h2>
 <p>An optional home-screen card retrieves reference exchange rates from the Frankfurter API. Only the relevant currency codes are sent, not financial balances, account values, or personal notes. The provider may receive technical connection data, such as an IP address.</p>
-<p>Links opened voluntarily (YouTube, privacy policy, store, support) and Google Play in-app updates are subject to the independent policies of their providers.</p>
-</section>
-<section aria-labelledby="section-10"><h2 id="section-10">10. Retention and deletion</h2>
-<p>Your records remain on your device until deleted, app data is cleared, or the app is uninstalled. Settings → Clear Data can remove selected categories from the active profile. Previously exported files and copies in third-party services must be removed separately by you.</p>
+<p>Links opened voluntarily (YouTube, privacy policy, store, support) and Google Play in-app updates are subject to the independent policies of their providers. Main third-party services include <strong>Google (Google Play, Google Play Billing, Play Integrity, AdMob/UMP, and Google Cloud)</strong> and <strong>Frankfurter</strong>, depending on features used. Personal financial entries, notes, and audio are not sent by the app as part of exchange-rate requests or advertising. See the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>.</p>
+<h2 id="section-10">10. Retention and deletion</h2>
+<p>Your records remain on your device until deleted, app data is cleared, or the app is uninstalled. Local data processing is needed to provide the features you choose. External providers may process technical data for advertising delivery and choices, security, purchase verification, and other purposes described here, subject to applicable laws. Settings → Clear Data can remove selected categories from the active profile. Previously exported files and copies in third-party services must be removed separately by you.</p>
 <p>MyMoney has no developer-managed online user accounts, so it offers neither server-side record syncing nor remote local-data deletion. The developer cannot view, restore, or delete your device-only records remotely. Infrastructure providers may retain limited technical anti-fraud records in accordance with their policies.</p>
-</section>
-<section aria-labelledby="section-11"><h2 id="section-11">11. Children and teens</h2>
+<h2 id="section-11">11. Children and teens</h2>
 <p>MyMoney is not specifically directed at children. It should be used in accordance with the age rating displayed on Google Play, with parental guidance where appropriate. It does not provide regulated financial services.</p>
-</section>
-<section aria-labelledby="section-12"><h2 id="section-12">12. Your rights, changes, and contact</h2>
-<p>You can access, edit, and delete your local entries through the app. For privacy inquiries, applicable data protection rights, or questions about third-party processing, contact us using the email below. We cannot decrypt or recover records that remain solely on your device without access to it.</p>
+<h2 id="section-12">12. Your rights, changes, and contact</h2>
+<p>You can access, edit, and delete your local entries through the app. Depending on applicable law, including Brazilian LGPD, the EU/UK GDPR, and applicable U.S. state privacy laws, you may request information about data processing and exercise rights of access, correction, deletion, objection, or consent withdrawal where available. For requests involving technical data controlled by the developer, privacy questions, or third-party processing, contact us using the email below. Advertising choices may also be reviewed through in-app preferences when available and the provider’s controls. We cannot decrypt or recover records that remain solely on your device without access to it.</p>
 <p>We may update this policy when features, providers, or legal obligations change. The last-updated date on this page identifies the current revision.</p>
-</section>
-<section aria-labelledby="section-13"><h2 id="section-13">13. Data controller contact</h2>
+<h2 id="section-13">13. Data controller contact</h2>
 <p>Application developer and privacy contact: <a href="mailto:moneyproapp@gmail.com">moneyproapp@gmail.com</a> (Anselmo Eller).</p>
-</section>
+
 </article></main>
 <footer class="footer"><p>© 2026 Anselmo Eller · MyMoney™. All rights reserved.</p><p><a href="#top">Back to top ↑</a></p></footer>
 </body></html>
