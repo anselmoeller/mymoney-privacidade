@@ -1,0 +1,116 @@
+
+:root{
+  color-scheme:light;
+  font-family:system-ui,-apple-system,"Segoe UI",Roboto,Arial,sans-serif;
+  color:#183023;
+  background:#f3f8f4
+}
+*{box-sizing:border-box}
+body{margin:0;line-height:1.7}
+a{color:#176a39}
+a:hover{text-decoration:none}
+a:focus-visible{outline:3px solid #e8a835;outline-offset:3px}
+.hero{
+  background:linear-gradient(140deg,#174f2a,#216c36 65%,#319451);
+  color:white;
+  padding:26px 22px 66px
+}
+.shell{max-width:880px;margin:auto}
+.brand{display:flex;gap:16px;align-items:center}
+.brand img{width:66px;height:66px;object-fit:contain}
+.brand strong{display:block;font-size:1.35rem;letter-spacing:.01em}
+.brand small{opacity:.86}
+.languages{
+  display:flex;
+  flex-wrap:wrap;
+  gap:9px;
+  margin-top:27px
+}
+.languages a{
+  color:white;
+  text-decoration:none;
+  padding:7px 15px;
+  border-radius:24px;
+  background:rgba(255,255,255,.12);
+  border:1px solid rgba(255,255,255,.4);
+  font-size:.91rem
+}
+.languages a[aria-current=page]{
+  color:#20562f;
+  background:white;
+  font-weight:750
+}
+.hero h1{
+  font-size:clamp(2rem,5vw,2.85rem);
+  line-height:1.16;
+  margin:32px 0 10px
+}
+.hero p{margin:5px 0;max-width:700px;opacity:.95}
+.content{max-width:880px;margin:-36px auto 46px;padding:0 17px}
+.paper{
+  background:white;
+  border-radius:18px;
+  box-shadow:0 8px 34px rgba(16,70,36,.11);
+  padding:clamp(21px,4vw,49px)
+}
+.meta{
+  padding-bottom:20px;
+  margin-bottom:29px;
+  border-bottom:1px solid #dfe8e1;
+  display:grid;
+  gap:6px;
+  color:#425b4a;
+  font-size:.92rem
+}
+.paper h2{
+  font-size:1.2rem;
+  margin:37px 0 9px;
+  color:#1c6135;
+  line-height:1.35
+}
+.paper p{margin:10px 0 13px}
+.paper ul{padding-left:25px;margin:12px 0 17px}
+.paper li{padding:2px 0}
+.paper code{
+  background:#e8f3eb;
+  padding:2px 6px;
+  border-radius:6px;
+  overflow-wrap:anywhere
+}
+.contact{
+  border:1px solid #c9e3cf;
+  background:#ecf7ef;
+  border-radius:10px;
+  padding:14px;
+  margin:18px 0 8px;
+  overflow-wrap:anywhere
+}
+.footer{
+  max-width:880px;
+  margin:0 auto 50px;
+  padding:0 25px;
+  color:#627466;
+  font-size:.83rem
+}
+.footer a{color:#256a3b}
+.sr-only{
+  position:absolute;
+  width:1px;
+  height:1px;
+  overflow:hidden;
+  clip:rect(0,0,0,0);
+  white-space:nowrap
+}
+@media(max-width:560px){
+  .brand img{width:55px;height:55px}
+  .hero{padding-bottom:54px}
+  .languages{gap:7px}
+  .languages a{padding:7px 12px}
+  .paper h2{margin-top:30px}
+}
+@media(prefers-reduced-motion:reduce){
+  *,*::before,*::after{
+    scroll-behavior:auto!important;
+    transition:none!important
+  }
+}
