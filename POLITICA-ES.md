@@ -1,124 +1,60 @@
-# Política de Privacidad — MyMoney™
+# Política de privacidad — Paz Financiera
 
-**Idioma:** es-419
+**Última actualización:** 13 de noviembre de 2026  
+**Contacto de privacidad:** moneyproapp@gmail.com  
+**Cómo Paz Financiera protege tus datos locales y utiliza servicios externos.**
 
-**Última actualización:** 2 de noviembre de 2026  
-**Aplicación:** MyMoney™  
-**Identificador Android:** com.anspro.mymoney.app  
-**Correo de privacidad:** moneyproapp@gmail.com
+## 1. Aplicación, responsable y finalidad
 
-## 1. Identificación y alcance
+Paz Financiera (antes MyMoney), desarrollada por Anselmo Eller, se distribuye en Google Play con el paquete Android com.anspro.mymoney.app. Sirve para organizar gastos, ingresos, cuentas, tareas, notas, audios, diario y metas de ahorro. No accede a cuentas bancarias ni mueve dinero y no exige una cuenta en línea con el desarrollador.
 
-Esta Política de Privacidad describe la aplicación móvil MyMoney™, que también puede mostrarse como MeuDinheiro o MiDinero según el idioma elegido. La aplicación es desarrollada por Anselmo Eller y utiliza el identificador Android com.anspro.mymoney.app.
+Los registros que introduces permiten calcular importes, mostrar gráficos, elaborar previsiones y programar recordatorios. La app no envía al desarrollador el contenido de tus datos financieros o personales ni lo utiliza para dirigir anuncios.
 
-MyMoney es una herramienta de organización personal. Permite registrar y consultar información financiera y cotidiana, pero no es un banco, una institución financiera, un proveedor de pagos, una plataforma de inversión ni un servicio de consulta de cuentas bancarias.
+## 2. Datos y almacenamiento local
 
-## 2. Información que introduces
+Según las funciones utilizadas, el dispositivo guarda importes, fechas, estados de pago, descripciones, tareas, notas, diario, grabaciones, texto reconocido en imágenes, metas de ahorro y preferencias de idioma, país, moneda y acceso. Las bases de datos estructuradas se cifran localmente mediante AES-256-GCM y las claves se mantienen en el almacenamiento seguro del sistema operativo.
 
-Según las funciones que utilices, la aplicación accede y almacena en tu dispositivo la información que decidas introducir, como:
+Un PIN opcional de 8 a 16 dígitos y la biometría en dispositivos compatibles pueden limitar el acceso; la app no recoge plantillas biométricas. Los audios se conservan en el espacio privado de la aplicación, pero no se cifran automáticamente como las bases de datos estructuradas. Ninguna protección elimina todos los riesgos.
 
-- Control financiero: sueldo o cantidad mensual de referencia, gastos, facturas, vencimientos, estado de pago, cuotas y gastos recurrentes.
-- Mis ingresos: fuentes de ingresos, importes previstos y recibidos, fechas, descripciones y observaciones.
-- Notas personales: títulos y textos escritos por el usuario.
-- Lista de tareas: títulos, descripciones y estado de realización.
-- Preferencias: idioma, país, moneda, aspecto visual, opciones de notificación e identificadores de perfiles locales.
-- Seguridad de acceso: PIN opcional, PIN recordado si se elige y código local de recuperación.
+## 3. Permisos, voz, imágenes y notificaciones
 
-Evita introducir contraseñas bancarias, números completos de tarjetas u otros secretos en las notas de texto libre. Tú eliges qué datos registrar.
+El micrófono, la cámara y las imágenes seleccionadas se utilizan cuando eliges grabar, dictar o digitalizar texto. El reconocimiento de texto (OCR) se realiza en el dispositivo; la imagen original no se guarda automáticamente en la nota y se intenta eliminar los archivos temporales. La transcripción de grabaciones existentes, si es compatible, requiere reconocimiento local. El dictado en directo puede utilizar servicios de voz del sistema o de terceros que, según la configuración, procesen audio por Internet.
 
-## 3. Finalidad del uso de los datos
+Con tu autorización, se programan avisos locales de cuentas, ingresos, tareas y notas. Los títulos o vencimientos pueden aparecer en la pantalla bloqueada. Puedes rechazar o revocar permisos, aunque las funciones correspondientes podrían dejar de estar disponibles.
 
-Los registros se utilizan para mostrar información, organizar facturas, calcular totales y saldos a partir de tus cantidades, elaborar gráficos, buscar contenido, gestionar tareas e ingresos, separar perfiles por idioma/país/moneda y programar recordatorios locales de vencimiento.
+## 4. Copias de seguridad y exportaciones
 
-Los importes solo se convierten entre perfiles cuando tú lo solicitas, usando el tipo de cambio que proporciones. La aplicación no conecta automáticamente con bancos, no consulta extractos ni obtiene cotizaciones en tiempo real.
+Las copias portátiles de datos usan AES-256-GCM y scrypt. Las copias manuales están protegidas por PIN. Con Pro puedes activar copias automáticas sin conexión en una carpeta local elegida por ti, utilizando una clave independiente de recuperación de 16 dígitos. El desarrollador no recibe esa clave ni puede recuperar archivos sin la credencial correcta.
 
-## 4. Almacenamiento local y transmisión
+Las copias automáticas se intentan cuando la app está abierta o vuelve al primer plano; no están garantizadas cuando se cierra. Las copias de datos no incluyen audio automáticamente; este puede exportarse en paquetes cifrados separados. Los TXT del diario y audios compartidos directamente pueden no estar cifrados. Tú eliges dónde guardar y borrar las exportaciones. No existe copia ni sincronización automática en la nube ofrecida por el desarrollador.
 
-En la versión revisada, los datos de finanzas, ingresos, notas y tareas se guardan en el dispositivo. La aplicación no exige una cuenta en línea ni sincroniza estos registros con servidores del desarrollador.
+## 5. Publicidad y consentimiento
 
-El código actual no contiene mecanismos propios identificados que envíen automáticamente estos registros a Anselmo Eller, publicidad conductual ni herramientas de análisis del comportamiento. Google Play, el sistema operativo y las páginas externas funcionan con sus propias políticas.
+La versión gratuita puede mostrar anuncios de Google AdMob. Su SDK puede tratar direcciones IP, identificadores del dispositivo o publicitarios, interacciones con anuncios y diagnósticos para mostrar y medir publicidad, proteger la seguridad y prevenir fraudes. Los anuncios se solicitan como no personalizados, pero aún puede existir tratamiento técnico.
 
-La información que se procesa exclusivamente en el dispositivo no se envía por ese solo motivo al desarrollador. Si en el futuro se añaden transmisiones o integraciones externas, actualizaremos esta política y las declaraciones de la tienda.
+Google User Messaging Platform (UMP) gestiona las opciones de privacidad y consentimiento cuando la ley lo exige y, cuando corresponda, permite revisarlas en Configuración. La falta del consentimiento necesario para anuncios no bloquea las funciones personales y financieras. Los usuarios Pro verificados no ven banners.
 
-## 5. Seguridad y cifrado
+## 6. Compras Pro y servicios externos
 
-Las bases de datos locales con gastos, ingresos, notas y tareas se protegen mediante cifrado AES-256-GCM. La clave de cifrado se guarda por separado mediante las funciones de seguridad del sistema operativo.
+Google Play procesa los pagos Pro; la app no recibe todos los datos de tu tarjeta. Para verificar o restaurar licencias, envía por HTTPS al servicio de verificación en Google Cloud el identificador del producto, token de compra, identificador de solicitud y token temporal de Play Integrity. No se transmiten PIN, movimientos financieros, notas ni audios.
 
-El PIN opcional añade una restricción para abrir la interfaz. El cifrado de las bases de datos funciona incluso sin activar el PIN. El PIN y el código de recuperación se almacenan en un área protegida del dispositivo. Algunas preferencias generales, como el tema y el idioma, pueden no usar el mismo cifrado.
+Las consultas de tipos de cambio utilizan la API Frankfurter y envían solamente códigos de moneda, nunca saldos. Google, Frankfurter, GitHub Pages (donde se aloja esta política) y los sitios que abras voluntariamente pueden tratar datos técnicos de conexión, como la dirección IP, conforme a sus propias políticas.
 
-El acceso opcional mediante huella digital u otra biometría fuerte compatible solo está disponible después de configurar un PIN. Android o iOS realiza la autenticación; MyMoney recibe únicamente el resultado y no captura, lee, almacena ni transmite imágenes de huellas, características biométricas ni plantillas biométricas. La aplicación solo guarda una preferencia local protegida que indica si se activó esta opción. Se puede seguir usando el PIN si se cancela la verificación, cambian las huellas registradas o se cambia de teléfono. El sistema puede aceptar cualquier biometría registrada en el dispositivo. La preferencia no se incluye en la copia portátil y debe activarse de nuevo en el teléfono nuevo.
+## 7. Conservación, eliminación y transferencias
 
-La seguridad no elimina todos los riesgos: dispositivos comprometidos, acceso a un teléfono desbloqueado, contenido mostrado en pantalla y notificaciones visibles pueden exponer información. Ninguna medida de seguridad es infalible.
+Los datos locales permanecen hasta que los elimines, borres los datos de la app o la desinstales. La limpieza permite seleccionar perfiles y categorías. Los archivos exportados o compartidos deben eliminarse por separado. El desarrollador no puede consultar, borrar ni recuperar a distancia las bases locales cifradas.
 
-## 6. Notificaciones y permisos
+Los proveedores externos pueden conservar registros técnicos para operar, garantizar la seguridad, prevenir fraudes o cumplir obligaciones legales según sus propios plazos. Estos servicios pueden tratar datos técnicos internacionalmente con las garantías aplicables; no controlamos los plazos establecidos por terceros.
 
-Si activas los avisos, MyMoney podrá solicitar permiso para mostrar notificaciones. Los recordatorios de vencimiento se programan localmente y pueden mostrar el nombre de una factura y la información de vencimiento en la pantalla o en el centro de notificaciones.
+## 8. Bases jurídicas y tus derechos
 
-Puedes ajustar o desactivar los avisos en Configuración y revocar el permiso desde los ajustes del dispositivo. El sistema operativo controla la entrega y visibilidad de las notificaciones.
+El tratamiento local permite ofrecer las funciones que solicitas. Cuando corresponda, la verificación de compras responde a la prestación del servicio y a intereses legítimos de seguridad; los tratamientos publicitarios sujetos a consentimiento dependen de tus decisiones y de las leyes regionales. También pueden existir obligaciones legales.
 
-## 7. Compartición de datos y terceros
+Según la normativa aplicable, incluida la LGPD brasileña y el RGPD europeo cuando corresponda, puedes solicitar información, acceso, corrección, eliminación, portabilidad u oposición, o retirar el consentimiento. Sobre datos bajo control del desarrollador, escribe a moneyproapp@gmail.com. Gestionas directamente tus datos locales; para los de terceros, utiliza también sus canales.
 
-La versión revisada no incluye una función que comparta automáticamente tus registros financieros y personales con el desarrollador, anunciantes o redes sociales.
+## 9. Menores y cambios
 
-Cuando abres enlaces externos, como el canal de YouTube o esta página de privacidad, el navegador o servicio externo puede tratar datos técnicos de acceso según su propia política. Esto no significa que MyMoney cargue automáticamente tus registros financieros.
+La app no está dirigida específicamente a niños. Su uso debe respetar la clasificación por edades de Google Play y la orientación de responsables cuando sea necesaria.
 
-Lo anterior no significa que Android, iOS, Google Play o los proveedores externos que visites no realicen tratamientos independientes.
+La política se actualizará cuando cambien funciones, proveedores o exigencias legales. La fecha anterior identifica la revisión vigente.
 
-La opción Compartir aplicación permitirá enviar el enlace público de Google Play cuando esté disponible. Mientras tanto, solo muestra un mensaje que indica que esta función está en preparación. Una vez habilitada, compartirá la dirección de la tienda mediante el menú del dispositivo, sin adjuntar automáticamente gastos, notas, tareas ni ingresos.
-
-Al visitar el sitio web de esta política, el proveedor de alojamiento (GitHub Pages) y tu navegador pueden tratar datos técnicos de conexión, como la dirección IP y registros de acceso, conforme a sus propias políticas. Si nos contactas por correo electrónico, tu proveedor de correo también procesa esa comunicación.
-
-## 8. Perfiles, conservación y eliminación
-
-Los registros permanecen almacenados localmente mientras los conserves en la aplicación y el almacenamiento siga disponible. Cada combinación de idioma, país y moneda puede tener una base de datos distinta.
-
-Puedes eliminar categorías seleccionadas desde Configuración → Limpieza de datos. La eliminación afecta a las categorías elegidas del perfil activo; los demás perfiles, el PIN y las preferencias generales no se borran necesariamente. Para borrar también los datos restantes, utiliza las opciones de almacenamiento o desinstalación del sistema operativo, teniendo en cuenta que las copias administradas por el sistema pueden seguir otras reglas.
-
-La aplicación no ofrece cuentas en línea ni un servicio remoto para eliminarlas. Como los registros permanecen en el dispositivo, el desarrollador no puede consultarlos, recuperarlos ni borrarlos a distancia.
-
-Los archivos de copia de seguridad que guardes fuera de MyMoney no se eliminan automáticamente cuando borras datos, eliminas perfiles o desinstalas la aplicación. Para eliminar esas copias, revisa también el almacenamiento, servicio en la nube u otra aplicación de destino que hayas elegido.
-
-## 9. Copia de seguridad y transferencia de datos
-
-MyMoney permite crear un archivo portátil de copia de seguridad protegido con cifrado AES-256-GCM. Una contraseña de entre 12 y 128 caracteres se utiliza para derivar la clave mediante scrypt. El archivo puede incluir todos los perfiles con finanzas, ingresos, notas y tareas. No se incluyen el PIN de acceso, el código de recuperación ni la clave de cifrado local del dispositivo.
-
-La aplicación envía el archivo al menú de compartir del dispositivo. Tú eliges dónde guardarlo, por ejemplo en Archivos, Google Drive u otro servicio. MyMoney no transmite automáticamente estos registros al desarrollador ni conserva copias en servidores propios. El destino que elijas puede almacenar y procesar el archivo según sus propias condiciones y políticas.
-
-Para restaurar, selecciona el archivo e introduce su contraseña original. La aplicación valida su autenticidad y estructura antes de importar. Los registros de perfiles con el mismo idioma, país y moneda pueden sustituirse previa confirmación. La copia de seguridad automática nativa de Android sigue desactivada.
-
-El usuario es responsable de elegir un lugar seguro, comprobar que el archivo se guardó realmente, proteger la contraseña y mantener las copias actualizadas. La aplicación no puede recuperar contraseñas olvidadas ni archivos perdidos. Recomendamos probar la restauración antes de borrar datos o cambiar de dispositivo. Estas precauciones no eliminan las obligaciones legales del desarrollador en materia de seguridad y transparencia.
-
-## 10. Niños y adolescentes
-
-MyMoney está diseñada para la organización general de finanzas y tareas personales y no está dirigida específicamente a niños. No se diseñó para solicitar datos de niños ni prestar servicios financieros regulados. Los responsables legales deben valorar si es adecuada para menores de edad.
-
-## 11. Derechos y solicitudes de privacidad
-
-Tú controlas los registros que introduces y puedes consultarlos, modificarlos o eliminar categorías mediante las herramientas de la aplicación. Para consultas sobre privacidad o derechos contemplados en la legislación aplicable, incluida la Ley General de Protección de Datos Personales de Brasil (LGPD), utiliza el contacto indicado abajo.
-
-Como los datos permanecen localmente y el desarrollador no tiene acceso a ellos, puede ser técnicamente imposible recuperarlos o borrarlos a distancia. Explicaremos con transparencia qué información está bajo nuestro control y cuál no.
-
-## 12. Modificaciones de esta política
-
-Esta política podrá actualizarse para reflejar nuevas funciones, prácticas de seguridad, servicios externos u obligaciones legales. La fecha de revisión se mostrará en esta página y, cuando corresponda, actualizaremos la aplicación y las declaraciones de la tienda.
-
-## 13. Contribuciones voluntarias y Pix
-
-MyMoney puede mostrar una opción de contribución voluntaria para apoyar a su creador Anselmo Eller. No es necesaria para utilizar la aplicación, no desbloquea funciones ni servicios y no ofrece recompensas digitales. El usuario elige el importe libremente.
-
-Para contribuir con Pix, la aplicación solo muestra un código QR estático proporcionado por el beneficiario y permite copiar el código Pix o la clave Pix aleatoria. El importe se introduce y autoriza exclusivamente en la aplicación del banco o proveedor de pagos. MyMoney no procesa transferencias, no recoge datos de cuentas o tarjetas del pagador ni confirma automáticamente el pago.
-
-Pix es un sistema de pagos brasileño en reales (BRL). Elegir otro idioma, país o moneda en MyMoney no convierte el pago ni hace que Pix sea compatible con bancos internacionales. Por ahora no se ha configurado un método de contribución internacional dentro de la aplicación.
-
-La entidad financiera puede tratar datos de la transacción, incluidos los del pagador y del beneficiario, según su propia política de privacidad. Esta función no envía esos datos a MyMoney. El destinatario podrá consultar los datos facilitados por su banco fuera de la aplicación.
-
-## 14. Responsable y contacto
-
-Responsable de la aplicación: Anselmo Eller. Marca utilizada: MyMoney™. Para dudas, solicitudes o asuntos de privacidad, utiliza el correo indicado a continuación.
-
-Correo de privacidad: moneyproapp@gmail.com
-
-Esta política se aplica a la versión de la aplicación descrita arriba. © indica derechos de autor; ™ identifica la marca, sin afirmar que esté registrada.
-
-
-© 2026 Anselmo Eller · MyMoney™.

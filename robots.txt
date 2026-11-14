@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://anselmoeller.github.io/mymoney-privacidade/sitemap.xml
