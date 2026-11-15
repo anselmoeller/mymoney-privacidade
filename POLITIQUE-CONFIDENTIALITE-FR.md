@@ -1,6 +1,6 @@
 # Politique de confidentialité — Paix Financière
 
-**Dernière mise à jour:** 13 novembre 2026  
+**Dernière mise à jour:** 15 novembre 2026  
 **Contact confidentialité:** moneyproapp@gmail.com  
 **Comment Paix Financière protège vos données sur l’appareil et utilise les services externes.**
 
@@ -22,6 +22,8 @@ Le microphone, l’appareil photo et les images choisies sont utilisés lorsque 
 
 Avec votre accord, des rappels locaux sont programmés pour les factures, revenus, tâches et notes. Titres et échéances peuvent s’afficher sur l’écran verrouillé. Vous pouvez refuser ou retirer les autorisations, mais certaines fonctions risquent de ne plus être disponibles.
 
+Le panneau Autorisations et consentements explique et propose des actions individuelles pour la caméra, le microphone, les notifications, les alarmes exactes, la biométrie, la sélection de photos et fichiers, les préférences publicitaires et les trois services Firebase. Il n’existe aucun bouton « Tout autoriser ». Lorsque l’accès dépend d’Android, l’application présente sa demande système ou ouvre les paramètres de l’appareil ; la sélection de fichiers ou dossiers n’est demandée qu’au besoin. Certaines fonctions peuvent être indisponibles sans leur autorisation, mais les fonctions financières principales restent accessibles.
+
 ## 4. Sauvegardes et exportations
 
 Les sauvegardes portables utilisent AES-256-GCM et scrypt. Les sauvegardes manuelles sont protégées par code PIN. Avec Pro, des sauvegardes automatiques hors ligne peuvent être réalisées dans un dossier local choisi, au moyen d’une clé de récupération indépendante de 16 chiffres. Le développeur ne reçoit pas cette clé et ne peut pas restaurer les fichiers sans les identifiants appropriés.
@@ -33,6 +35,21 @@ Les sauvegardes sont tentées lorsque l’application est ouverte ou revient au 
 La version gratuite peut afficher des publicités Google AdMob. Son SDK peut traiter les adresses IP, identifiants d’appareil ou publicitaires, interactions et données de diagnostic pour diffuser et mesurer les annonces, assurer la sécurité et prévenir la fraude. Les annonces sont demandées comme non personnalisées, mais un traitement technique reste possible.
 
 Google User Messaging Platform (UMP) gère les choix de confidentialité et de consentement lorsque la loi l’exige et, le cas échéant, leur modification dans les Paramètres. L’absence d’un consentement nécessaire à la publicité ne bloque pas les fonctions personnelles et financières. Les utilisateurs Pro dont la licence est vérifiée ne voient pas de bannières.
+
+### Firebase Analytics, Crashlytics et Performance Monitoring — facultatifs
+
+Dans la version Android officielle, Paix Financière propose trois services distincts de Google Firebase : Analytics (statistiques d’utilisation), Crashlytics (diagnostic des incidents) et Performance Monitoring (mesures de performance). Chacun peut être autorisé ou refusé séparément dans Paramètres → Vos données et confidentialité → Autorisations et consentements. La collecte de ces trois services est désactivée par défaut et ne doit être activée qu’après le choix correspondant. Lors de la première utilisation ou après une mise à jour, un message peut inviter à examiner les options ; ouvrir cette page ou choisir « Plus tard » ne vaut pas consentement. Ces choix sont indépendants des préférences publicitaires AdMob.
+
+Si Analytics est autorisé, Google peut recevoir des événements d’utilisation (premières ouvertures, sessions, écrans consultés), la version de l’application, le modèle et le système de l’appareil, un identifiant d’instance et, selon le SDK et ses paramètres, des identifiants publicitaires et une localisation approximative déduite de l’adresse IP. Ces données servent à comprendre l’utilisation et à améliorer l’expérience. Aucun montant financier, libellé de compte, texte de note ou autre contenu saisi n’est volontairement inclus.
+
+Si Crashlytics est autorisé, Google peut recevoir des rapports de plantage et d’erreurs non fatales, des traces techniques d’exécution, des identifiants d’installation et des informations sur l’application, le système et l’appareil afin de résoudre les problèmes de stabilité. Les diagnostics personnalisés se limitent à des codes techniques prédéfinis. L’application n’y ajoute pas volontairement de PIN, soldes, textes, fichiers audio ou documents.
+
+Si Performance Monitoring est autorisé, Google peut recevoir les durées de démarrage, d’affichage et d’opérations surveillées ainsi que des mesures de performance et de réseau (durée des requêtes et adresses des services, sans paramètres d’URL ni contenu des requêtes). Des informations techniques de l’appareil, la version, des identifiants d’installation et une localisation approximative peuvent aussi être traités. Les mesures personnalisées utilisent des noms techniques fixes, sans contenu financier ou personnel.
+
+Refuser ou retirer une autorisation n’empêche pas d’utiliser les fonctions financières, les notes, les tâches, les sauvegardes locales ou Pro. Le retrait arrête la collecte future du service concerné, mais n’efface pas automatiquement les données déjà reçues par Google. Des composants d’infrastructure Firebase, notamment Firebase Installations, peuvent utiliser des identifiants techniques pour fonctionner ; désactiver les événements ne supprime donc pas nécessairement tout traitement technique des SDK. Google peut traiter ces données selon ses règles de conservation et de transfert international. Consultez les politiques de confidentialité de Google et de Firebase ; pour les données contrôlées par le développeur, utilisez le contact indiqué sur cette page.
+
+Documentação do Firebase: https://firebase.google.com/support/privacy  
+Política de Privacidade do Google: https://policies.google.com/privacy
 
 ## 6. Achats Pro et services externes
 

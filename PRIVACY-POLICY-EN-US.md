@@ -1,6 +1,6 @@
 # Privacy Policy — Financial Peace
 
-**Last updated:** November 13, 2026  
+**Last updated:** November 15, 2026  
 **Privacy contact:** moneyproapp@gmail.com  
 **How Financial Peace keeps your records on your device, protects them and uses external services.**
 
@@ -22,6 +22,8 @@ Microphone, camera and selected images are accessed when you choose to record, d
 
 With your permission, local reminders are scheduled for bills, income, tasks and notes. Titles or due dates may appear on the lock screen. You can deny or revoke permissions, although related features may then be unavailable.
 
+The Permissions and consent screen explains and offers individual actions for camera, microphone, notifications, exact alarms, biometrics, photo and file selection, advertising preferences and the three Firebase services. There is no global “Allow all” option. Where Android controls access, the app displays the operating system’s permission request or takes you to device settings; selecting a file or folder is requested only when needed. Certain features may not work without their permission, but core financial features remain available.
+
 ## 4. Backups and exports
 
 Portable data backups use AES-256-GCM and scrypt. Manual backups are PIN-protected. Pro users can enable offline automatic backups to a local folder of their choice, using a separate 16-digit recovery key. The developer does not receive that key and cannot recover files without the correct credential.
@@ -33,6 +35,21 @@ Automatic backups are attempted while the app is open or returns to the foregrou
 The free version may display Google AdMob ads. Its SDK may process IP addresses, device or advertising identifiers, ad interactions and diagnostics to deliver and measure ads, support security and prevent fraud. Ad requests are configured as non-personalized, but technical processing can still occur.
 
 Google User Messaging Platform (UMP) manages privacy and consent choices where legally required and, where applicable, allows you to review them in Settings. A lack of required advertising consent does not block core personal or financial features. Verified Pro users do not see banner ads.
+
+### Firebase Analytics, Crashlytics and Performance Monitoring — optional
+
+In the official Android app, Financial Peace offers three separate Google Firebase services: Analytics (usage statistics), Crashlytics (crash diagnostics), and Performance Monitoring (performance measurements). Each can be enabled or declined independently under Settings → Your data and privacy → Permissions and consent. Collection for these three services is configured as disabled by default and should be enabled only after the corresponding choice. On first use or after an update, an invitation may prompt users to review the options; opening the permissions screen or choosing “Not now” is not consent. These choices are independent of Google AdMob advertising preferences.
+
+When Analytics is enabled, Google may receive app usage events, such as first launches, sessions and screens visited, app version, device model and operating system, an app-instance identifier and, depending on the SDK and settings, advertising identifiers and approximate location derived from IP address. This is used to understand app usage and improve the experience. Financial amounts, account descriptions, notes and other user-entered content are not intentionally included.
+
+When Crashlytics is enabled, Google may receive crash and non-fatal error reports, technical stack traces, installation identifiers and app, operating-system and device details to investigate stability problems. Custom diagnostics use a fixed set of technical codes. The app does not intentionally attach PINs, balances, note text, audio or document contents to those reports.
+
+When Performance Monitoring is enabled, Google may receive app startup, rendering and monitored-operation durations, performance and network metrics (such as request duration and service URLs, without URL parameters or request bodies), together with device details, app version, installation identifiers and approximate location. Custom measurements use fixed technical names, not financial or personal content.
+
+Declining or withdrawing any of these choices does not prevent financial features, notes, tasks, local backups or Pro access. Withdrawal stops future collection by the corresponding service but does not automatically erase data already received by Google. Firebase infrastructure components, including Firebase Installations, may use technical installation identifiers to function; disabling Analytics, Crashlytics or Performance events does not necessarily stop all SDK-level technical processing. Google may process information under its own retention and international transfer practices. See Google’s Privacy Policy and Firebase privacy documentation for information about processing and rights; contact the developer using the address on this page for developer-controlled data.
+
+Documentação do Firebase: https://firebase.google.com/support/privacy  
+Política de Privacidade do Google: https://policies.google.com/privacy
 
 ## 6. Pro purchases and external services
 

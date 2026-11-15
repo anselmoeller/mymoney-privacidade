@@ -1,6 +1,6 @@
 # Informativa sulla privacy — Serenità Finanziaria
 
-**Ultimo aggiornamento:** 13 novembre 2026  
+**Ultimo aggiornamento:** 15 novembre 2026  
 **Contatto privacy:** moneyproapp@gmail.com  
 **Come Serenità Finanziaria conserva e protegge i dati sul dispositivo e utilizza servizi esterni.**
 
@@ -22,6 +22,8 @@ Microfono, fotocamera e immagini selezionate sono utilizzati quando scegli di re
 
 Con il tuo consenso, l’app programma promemoria locali per bollette, entrate, attività e appunti. Titoli o scadenze possono comparire sulla schermata di blocco. Puoi negare o revocare i permessi, ma alcune funzioni potrebbero non essere disponibili.
 
+La schermata Permessi e consensi spiega e gestisce singolarmente fotocamera, microfono, notifiche, sveglie esatte, biometria, selezione di foto e file, preferenze pubblicitarie e i tre servizi Firebase. Non è presente alcun pulsante «Consenti tutto». Dove la gestione spetta ad Android, l’app mostra la richiesta del sistema oppure apre le impostazioni del dispositivo; la selezione di file o cartelle viene richiesta solo quando necessaria. Alcune funzioni possono non essere disponibili senza i relativi permessi, ma le funzioni finanziarie principali restano utilizzabili.
+
 ## 4. Backup ed esportazioni
 
 I backup portabili dei dati usano AES-256-GCM e scrypt. I backup manuali sono protetti da PIN. Con Pro puoi attivare backup automatici offline in una cartella locale scelta da te, protetti da una chiave di recupero indipendente di 16 cifre. Lo sviluppatore non riceve questa chiave e non può recuperare i file senza la credenziale corretta.
@@ -33,6 +35,21 @@ I backup automatici vengono tentati quando l’app è aperta o torna in primo pi
 La versione gratuita può mostrare annunci Google AdMob. Il relativo SDK può trattare indirizzi IP, identificatori del dispositivo o pubblicitari, interazioni con annunci e diagnostica per erogazione, misurazione, sicurezza e prevenzione delle frodi. Gli annunci vengono richiesti come non personalizzati, ma un trattamento tecnico può comunque verificarsi.
 
 Google User Messaging Platform (UMP) gestisce le opzioni di privacy e consenso richieste dalla legge e, quando previsto, permette di rivederle nelle Impostazioni. L’assenza del consenso necessario per gli annunci non blocca le funzioni personali e finanziarie. Con una licenza Pro verificata non vengono mostrati banner.
+
+### Firebase Analytics, Crashlytics e Performance Monitoring — facoltativi
+
+Nella versione Android ufficiale, Serenità Finanziaria offre tre servizi distinti di Google Firebase: Analytics (statistiche d’uso), Crashlytics (diagnostica degli arresti) e Performance Monitoring (misurazioni delle prestazioni). È possibile autorizzare o rifiutare ciascun servizio separatamente in Impostazioni → I tuoi dati e privacy → Permessi e consensi. La raccolta dei tre servizi è disattivata per impostazione predefinita e deve essere attivata solo dopo la relativa scelta. Al primo utilizzo o dopo un aggiornamento, un avviso può invitare a rivedere le opzioni; aprire la schermata o scegliere «Non ora» non costituisce consenso. Queste scelte sono indipendenti dalle preferenze pubblicitarie AdMob.
+
+Quando Analytics è autorizzato, Google può ricevere eventi d’uso quali prime aperture, sessioni e schermate visitate, versione dell’app, modello e sistema del dispositivo, identificatore dell’istanza dell’app e, in base al SDK e alle impostazioni, identificatori pubblicitari e posizione approssimativa dedotta dall’indirizzo IP. Questi dati servono a comprendere l’utilizzo e migliorare l’esperienza. Importi finanziari, descrizioni dei conti, note e altri contenuti inseriti non sono inclusi intenzionalmente.
+
+Quando Crashlytics è autorizzato, Google può ricevere rapporti su arresti anomali ed errori non fatali, tracce tecniche di esecuzione, identificatori di installazione e informazioni su app, sistema e dispositivo per diagnosticare problemi di stabilità. La diagnostica personalizzata impiega soltanto codici tecnici predefiniti. PIN, saldi, testi delle note, audio e contenuti di documenti non vengono aggiunti intenzionalmente ai rapporti.
+
+Quando Performance Monitoring è autorizzato, Google può ricevere tempi di avvio, rendering e operazioni monitorate, metriche di prestazione e rete (come durata delle richieste e indirizzi dei servizi, senza parametri URL o contenuto delle richieste), oltre a dati tecnici del dispositivo, versione dell’app, identificatori di installazione e posizione approssimativa. Le misurazioni personalizzate utilizzano nomi tecnici fissi, senza contenuti finanziari o personali.
+
+Rifiutare o revocare uno dei consensi non impedisce l’uso delle funzioni finanziarie, delle note, delle attività, dei backup locali o di Pro. La revoca interrompe la raccolta futura del relativo servizio, ma non elimina automaticamente i dati già ricevuti da Google. Componenti dell’infrastruttura Firebase, come Firebase Installations, possono utilizzare identificatori tecnici per funzionare; disattivare gli eventi non comporta necessariamente l’arresto di ogni trattamento tecnico dei SDK. Google può trattare dati secondo le proprie regole di conservazione e trasferimento internazionale. Per informazioni consultare le informative sulla privacy di Google e Firebase; per i dati controllati dallo sviluppatore usare il recapito presente in questa pagina.
+
+Documentação do Firebase: https://firebase.google.com/support/privacy  
+Política de Privacidade do Google: https://policies.google.com/privacy
 
 ## 6. Acquisti Pro e servizi esterni
 

@@ -1,6 +1,6 @@
 # Kebijakan Privasi — Ketenangan Finansial
 
-**Terakhir diperbarui:** 13 November 2026  
+**Terakhir diperbarui:** 15 November 2026  
 **Kontak privasi:** moneyproapp@gmail.com  
 **Cara Ketenangan Finansial menyimpan dan melindungi data di perangkat serta menggunakan layanan eksternal.**
 
@@ -22,6 +22,8 @@ Mikrofon, kamera, dan gambar yang dipilih digunakan ketika Anda merekam, mendikt
 
 Dengan izin Anda, aplikasi menjadwalkan pengingat lokal untuk tagihan, pemasukan, tugas, dan catatan. Judul atau tanggal jatuh tempo mungkin terlihat pada layar terkunci. Izin dapat ditolak atau dicabut, tetapi fitur yang terkait mungkin tidak dapat digunakan.
 
+Layar Izin dan persetujuan memberi penjelasan serta tindakan masing-masing untuk kamera, mikrofon, notifikasi, alarm tepat waktu, biometrik, pemilihan foto dan berkas, preferensi iklan, dan ketiga layanan Firebase. Tidak ada tombol “Izinkan semua”. Jika Android mengendalikan izin tersebut, aplikasi menampilkan permintaan sistem atau membuka pengaturan perangkat; pemilihan berkas atau folder hanya diminta saat diperlukan. Fitur tertentu mungkin tidak berfungsi tanpa izinnya, tetapi fitur keuangan utama tetap tersedia.
+
 ## 4. Pencadangan dan ekspor
 
 Cadangan data portabel menggunakan AES-256-GCM dan scrypt. Cadangan manual dilindungi PIN. Pengguna Pro dapat mengaktifkan cadangan otomatis luring di folder lokal pilihannya dengan kunci pemulihan terpisah sepanjang 16 digit. Pengembang tidak menerima kunci tersebut dan tidak dapat memulihkan berkas tanpa kredensial yang benar.
@@ -33,6 +35,21 @@ Pencadangan dicoba saat aplikasi terbuka atau kembali ke layar depan; proses tid
 Versi gratis dapat menampilkan iklan Google AdMob. SDK dapat memproses alamat IP, pengenal perangkat atau iklan, interaksi iklan, dan diagnostik untuk penayangan, pengukuran, keamanan, serta pencegahan penipuan. Permintaan iklan dikonfigurasi sebagai tidak dipersonalisasi, tetapi pemrosesan data teknis masih mungkin terjadi.
 
 Google User Messaging Platform (UMP) mengelola pilihan privasi dan persetujuan jika diwajibkan oleh hukum; jika tersedia, pilihan dapat ditinjau kembali di Pengaturan. Tidak memberikan persetujuan yang diperlukan untuk iklan tidak memblokir fitur utama keuangan dan pribadi. Pengguna Pro dengan lisensi terverifikasi tidak melihat banner iklan.
+
+### Firebase Analytics, Crashlytics, dan Performance Monitoring — opsional
+
+Dalam aplikasi Android resmi, Ketenangan Finansial menyediakan tiga layanan Google Firebase yang terpisah: Analytics (statistik penggunaan), Crashlytics (diagnostik gangguan), dan Performance Monitoring (pengukuran kinerja). Pengguna dapat menyetujui atau menolak masing-masing secara terpisah melalui Pengaturan → Data dan privasi Anda → Izin dan persetujuan. Pengumpulan oleh ketiga layanan tersebut dinonaktifkan secara bawaan dan hanya seharusnya diaktifkan setelah persetujuan yang sesuai. Pada penggunaan pertama atau setelah pembaruan, pemberitahuan dapat mengajak pengguna meninjau pilihan; membuka halaman tersebut atau memilih “Nanti” bukan persetujuan. Pilihan ini terpisah dari preferensi iklan AdMob.
+
+Jika Analytics diizinkan, Google dapat menerima peristiwa penggunaan, seperti pembukaan pertama, sesi, dan layar yang dikunjungi, versi aplikasi, model dan sistem perangkat, pengenal instans aplikasi, serta bergantung pada SDK dan pengaturannya, pengenal iklan dan perkiraan lokasi berdasarkan alamat IP. Data tersebut dipakai untuk memahami penggunaan dan meningkatkan aplikasi. Jumlah uang, deskripsi rekening, isi catatan, dan data yang dimasukkan pengguna tidak dimasukkan secara sengaja ke data analitik.
+
+Jika Crashlytics diizinkan, Google dapat menerima laporan aplikasi berhenti, kesalahan nonfatal, jejak tumpukan teknis, pengenal instalasi, serta informasi aplikasi, sistem operasi, dan perangkat untuk menyelidiki masalah kestabilan. Diagnostik khusus dibatasi pada kode teknis yang telah ditentukan. PIN, saldo, teks catatan, rekaman audio, atau isi dokumen tidak ditambahkan secara sengaja ke laporan.
+
+Jika Performance Monitoring diizinkan, Google dapat menerima durasi pembukaan aplikasi, tampilan layar, dan operasi yang dipantau, metrik kinerja dan jaringan (misalnya waktu permintaan dan alamat layanan tanpa parameter URL atau isi permintaan), serta detail teknis perangkat, versi aplikasi, pengenal instalasi, dan perkiraan lokasi. Pengukuran khusus menggunakan nama teknis tetap tanpa isi keuangan atau pribadi.
+
+Penolakan atau pencabutan persetujuan tidak menghalangi fitur keuangan, catatan, tugas, cadangan lokal, atau akses Pro. Pencabutan menghentikan pengumpulan berikutnya oleh layanan terkait, tetapi tidak otomatis menghapus data yang sudah diterima Google. Komponen infrastruktur Firebase, termasuk Firebase Installations, dapat menggunakan pengenal instalasi teknis untuk beroperasi; mematikan peristiwa tidak selalu menghentikan semua pemrosesan teknis SDK. Google dapat memproses data menurut ketentuan penyimpanan dan transfer internasionalnya. Lihat kebijakan privasi Google dan dokumentasi privasi Firebase; untuk data di bawah kendali pengembang, gunakan kontak pada halaman ini.
+
+Documentação do Firebase: https://firebase.google.com/support/privacy  
+Política de Privacidade do Google: https://policies.google.com/privacy
 
 ## 6. Pembelian Pro dan layanan eksternal
 
