@@ -75,3 +75,27 @@ La app no está dirigida específicamente a niños. Su uso debe respetar la clas
 
 La política se actualizará cuando cambien funciones, proveedores o exigencias legales. La fecha anterior identifica la revisión vigente.
 
+---
+
+<!-- FCM-20261120: atualização pública da política 1.3.0 -->
+## Comunicados oficiales opcionales — Firebase Cloud Messaging
+
+En las versiones compatibles de Android, Paz Financiera puede enviar avisos generales sobre actualizaciones, mantenimiento y novedades mediante Firebase Cloud Messaging (FCM) de Google. Esta función está desactivada inicialmente y solo se habilita cuando decides recibir comunicados desde el Centro de Notificaciones y concedes el permiso correspondiente de Android.
+
+Con tu consentimiento, Firebase puede tratar un token técnico de registro, identificadores de instalación, el tema asociado al idioma seleccionado, dirección IP e información técnica del dispositivo y la entrega. Su finalidad es distribuir comunicados. La aplicación no incluye saldos, gastos, PIN, contenido de notas, grabaciones ni archivos de respaldo en los mensajes FCM. El desarrollador no mantiene una base propia de tokens de usuarios.
+
+Los mensajes siguen el idioma elegido dentro de la aplicación, que puede ser distinto del idioma de Android. Al cambiar de idioma, se intenta cancelar la inscripción anterior antes de realizar la nueva. Sin conexión, los cambios o la cancelación pueden quedar pendientes hasta recuperar internet. La entrega no está garantizada; los avisos pueden mostrarse en la pantalla de bloqueo según la configuración del dispositivo.
+
+Puedes desactivar estos comunicados en cualquier momento desde el Centro de Notificaciones. Son independientes de los recordatorios locales, Analytics, Crashlytics, Performance Monitoring y las preferencias de publicidad. Google trata los datos técnicos conforme a sus propias políticas. No se requiere la versión Pro.
+
+## Versión 1.3.0: respaldos v4 y funciones
+
+En la versión 1.3.0, los respaldos de datos portátiles más recientes utilizan el formato v4 con cifrado y pueden recuperarse con el PIN original o un código de recuperación compatible, según el archivo. Los respaldos antiguos pueden exigir las credenciales originales: cambiar el PIN no modifica los archivos anteriores. Los respaldos automáticos Pro continúan siendo locales, en una carpeta elegida por el usuario y con clave de recuperación independiente. El audio puede requerir archivos cifrados separados. No existe sincronización de los registros financieros con un servidor del desarrollador.
+
+Funciones actuales: gastos e ingresos, previsiones, gráficos e informes PDF, pagos recurrentes, cuotas, tareas, notas de voz, OCR local, PIN de 8 a 16 dígitos, biometría, respaldos locales cifrados y temas visuales. Los comunicados son opcionales y requieren una versión compatible.
+
+## Descarga Paz Financiera en Google Play
+
+Ficha oficial para Android. La instalación se realiza a través de Google Play. [Google Play](https://play.google.com/store/apps/details?id=com.anspro.mymoney.app&hl=es_ES).
+
+![QR Code — Google Play](assets/qr-play-es.png)

@@ -75,3 +75,27 @@ Aplikasi ini tidak secara khusus ditujukan untuk anak-anak. Gunakan sesuai klasi
 
 Kebijakan akan diperbarui jika fitur, penyedia, atau kewajiban hukum berubah. Tanggal di atas menunjukkan versi yang berlaku.
 
+---
+
+<!-- FCM-20261120: atualização pública da política 1.3.0 -->
+## Pengumuman resmi opsional — Firebase Cloud Messaging
+
+Pada versi Android yang mendukung, Ketenangan Finansial dapat mengirim pengumuman umum tentang pembaruan, pemeliharaan, dan fitur baru melalui Firebase Cloud Messaging (FCM) dari Google. Fitur ini dinonaktifkan secara bawaan dan hanya diaktifkan setelah Anda memilih untuk menerimanya di Pusat Notifikasi serta memberikan izin Android yang diperlukan.
+
+Dengan persetujuan Anda, Firebase dapat memproses token pendaftaran teknis dan pengenal instalasi, topik yang sesuai dengan bahasa pilihan di aplikasi, alamat IP, serta data teknis perangkat dan pengiriman. Data tersebut digunakan untuk menyalurkan pesan. Saldo, pengeluaran, PIN, isi catatan, rekaman, dan berkas cadangan tidak disertakan dalam pesan FCM. Pengembang tidak menyimpan basis data token pengguna sendiri.
+
+Bahasa pesan mengikuti bahasa yang dipilih di aplikasi, yang dapat berbeda dari bahasa Android. Saat bahasa berubah, aplikasi mencoba berhenti berlangganan topik lama sebelum bergabung dengan topik baru. Saat offline, perubahan dan pembatalan mungkin tertunda hingga koneksi kembali. Pengiriman tidak dijamin; notifikasi dapat muncul pada layar kunci sesuai pengaturan perangkat.
+
+Anda dapat menonaktifkan pengumuman kapan saja melalui Pusat Notifikasi. Pilihan ini terpisah dari pengingat lokal, izin Analytics, Crashlytics, Performance Monitoring, dan pengaturan iklan. Google memproses informasi teknis menurut kebijakan privasinya. Tidak diperlukan pembelian Pro.
+
+## Versi 1.3.0: cadangan v4
+
+Pada versi 1.3.0, cadangan data portabel terbaru memakai format v4 yang terenkripsi dan dapat dipulihkan menggunakan PIN asli atau kode pemulihan yang kompatibel, sesuai berkas. Cadangan lama mungkin tetap membutuhkan kredensial awal; mengganti PIN tidak mengubah berkas lama. Cadangan otomatis Pro tetap offline dalam folder pilihan dengan kunci pemulihan terpisah. Audio mungkin memerlukan arsip terenkripsi terpisah. Tidak ada sinkronisasi data keuangan ke server pengembang.
+
+Fitur saat ini: pengeluaran, pemasukan, prakiraan, grafik dan laporan PDF, tagihan berulang, cicilan, tugas, catatan suara, OCR lokal, PIN 8–16 digit, biometrik, cadangan lokal terenkripsi, dan pilihan tema. Pengumuman resmi bersifat opsional dan memerlukan versi aplikasi yang kompatibel.
+
+## Unduh Ketenangan Finansial di Google Play
+
+Halaman resmi aplikasi Android. Instalasi dilakukan melalui Google Play. [Google Play](https://play.google.com/store/apps/details?id=com.anspro.mymoney.app&hl=id_ID).
+
+![QR Code — Google Play](assets/qr-play-id.png)

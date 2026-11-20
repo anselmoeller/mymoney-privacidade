@@ -75,3 +75,27 @@ L’app non è rivolta specificamente ai bambini. L’utilizzo deve rispettare l
 
 L’informativa sarà aggiornata se cambiano le funzioni, i fornitori o gli obblighi di legge. La data in alto indica la versione vigente.
 
+---
+
+<!-- FCM-20261120: atualização pública da política 1.3.0 -->
+## Comunicazioni ufficiali facoltative — Firebase Cloud Messaging
+
+Nelle versioni Android compatibili, Serenità Finanziaria può inviare avvisi generali su aggiornamenti, manutenzione e novità tramite Google Firebase Cloud Messaging (FCM). La funzione è disattivata per impostazione predefinita e richiede la tua scelta esplicita nel Centro notifiche e la relativa autorizzazione Android.
+
+Con il consenso, Firebase può trattare un token tecnico di registrazione e identificatori dell’installazione, l’argomento relativo alla lingua scelta nell’app, l’indirizzo IP e dati tecnici del dispositivo e della consegna. Servono per distribuire gli avvisi. Saldi, spese, PIN, contenuti delle note, registrazioni e backup non vengono inclusi nei messaggi FCM. Lo sviluppatore non gestisce un proprio archivio di token degli utenti.
+
+La lingua dei messaggi segue quella selezionata nell’app, che può differire dalla lingua di Android. Quando cambi lingua, l’app tenta di annullare l’iscrizione precedente prima di attivare quella nuova. Senza connessione, modifiche e disiscrizioni possono restare in sospeso fino al ritorno della rete. La consegna non è garantita e le notifiche possono apparire nella schermata di blocco in base alle impostazioni del telefono.
+
+Puoi disattivare gli avvisi in qualsiasi momento dal Centro notifiche. La scelta è distinta dai promemoria locali, dalle autorizzazioni Analytics, Crashlytics e Performance Monitoring e dalle preferenze pubblicitarie. Google tratta i dati tecnici secondo le proprie informative. Non serve acquistare Pro.
+
+## Versione 1.3.0: backup v4
+
+Nella versione 1.3.0, i backup portatili recenti utilizzano il formato v4 cifrato e possono essere recuperati con il PIN originale o un codice di recupero compatibile, a seconda del file. I backup precedenti possono richiedere ancora le credenziali originali; cambiare il PIN non modifica i file già creati. I backup automatici Pro restano offline nella cartella selezionata, con una chiave distinta. L’audio può richiedere archivi cifrati separati. Nessuna sincronizzazione dei dati finanziari con un server dello sviluppatore.
+
+Funzioni attuali: spese, entrate, previsioni, grafici e PDF, pagamenti ricorrenti, rate, attività, note vocali, OCR locale, PIN da 8 a 16 cifre, biometria, backup locali cifrati e temi visivi. Le comunicazioni sono facoltative e richiedono una versione compatibile.
+
+## Scarica Serenità Finanziaria da Google Play
+
+Pagina ufficiale Android. L’installazione avviene tramite Google Play. [Google Play](https://play.google.com/store/apps/details?id=com.anspro.mymoney.app&hl=it_IT).
+
+![QR Code — Google Play](assets/qr-play-it.png)

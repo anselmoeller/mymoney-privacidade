@@ -75,3 +75,27 @@ L’application ne s’adresse pas spécifiquement aux enfants. Son utilisation 
 
 La politique sera révisée en cas de changement des fonctions, fournisseurs ou obligations légales. La date ci-dessus désigne la version en vigueur.
 
+---
+
+<!-- FCM-20261120: atualização pública da política 1.3.0 -->
+## Communications officielles facultatives — Firebase Cloud Messaging
+
+Dans les versions Android compatibles, Paix Financière peut envoyer des communications générales sur les mises à jour, la maintenance et les nouveautés via Firebase Cloud Messaging (FCM) de Google. Cette option est désactivée par défaut et nécessite une activation volontaire dans le Centre de notifications ainsi que l’autorisation Android appropriée.
+
+Avec votre accord, Firebase peut traiter un jeton technique d’inscription et des identifiants d’installation, le sujet lié à la langue choisie dans l’application, l’adresse IP et des informations techniques de l’appareil et de livraison. Ces données servent à distribuer les messages. Aucun solde, dépense, PIN, contenu de note, enregistrement ou sauvegarde n’est inclus dans les messages FCM. Le développeur ne gère pas de base de données de jetons personnels.
+
+Les messages suivent la langue choisie dans l’application, qui peut différer de la langue d’Android. En cas de changement, l’application tente d’abord de quitter l’ancien sujet puis de rejoindre le nouveau. Hors ligne, les changements et désinscriptions peuvent attendre le retour de la connexion. La livraison n’est pas garantie ; les messages peuvent apparaître sur l’écran verrouillé suivant les réglages du téléphone.
+
+Vous pouvez désactiver les communications à tout moment dans le Centre de notifications. Cette option est distincte des rappels locaux, des autorisations Analytics, Crashlytics et Performance Monitoring et des préférences publicitaires. Google traite les données techniques selon ses politiques de confidentialité. Aucun achat Pro n’est requis.
+
+## Version 1.3.0: sauvegardes v4
+
+Avec la version 1.3.0, les sauvegardes portables récentes utilisent le format v4 chiffré et peuvent être restaurées avec le PIN d’origine ou un code de récupération compatible, selon le fichier. Les sauvegardes anciennes peuvent nécessiter leurs anciens identifiants : changer le PIN ne modifie pas les archives antérieures. Les sauvegardes automatiques Pro restent locales, dans un dossier choisi, avec une clé distincte. Les fichiers audio peuvent nécessiter des archives chiffrées séparées. Aucune synchronisation financière n’est réalisée sur un serveur du développeur.
+
+Fonctions actuelles : dépenses, revenus et prévisions, graphiques et rapports PDF, paiements récurrents, échéances, tâches, notes vocales, OCR local, PIN de 8 à 16 chiffres, biométrie, sauvegardes locales chiffrées et thèmes. Les communications sont facultatives et nécessitent une version compatible.
+
+## Télécharger Paix Financière sur Google Play
+
+Fiche officielle de l’application Android. L’installation passe par Google Play. [Google Play](https://play.google.com/store/apps/details?id=com.anspro.mymoney.app&hl=fr_FR).
+
+![QR Code — Google Play](assets/qr-play-fr.png)

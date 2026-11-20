@@ -75,3 +75,27 @@ Die App richtet sich nicht gezielt an Kinder. Beachten Sie die Altersfreigabe be
 
 Ändern sich Funktionen, Anbieter oder gesetzliche Vorgaben, wird die Erklärung überarbeitet. Das obige Datum bezeichnet die gültige Fassung.
 
+---
+
+<!-- FCM-20261120: atualização pública da política 1.3.0 -->
+## Optionale offizielle Mitteilungen — Firebase Cloud Messaging
+
+In kompatiblen Android-Versionen kann Finanzielle Ruhe allgemeine Hinweise zu Updates, Wartung und Neuerungen über Google Firebase Cloud Messaging (FCM) senden. Die Funktion ist standardmäßig deaktiviert und wird erst nach Ihrer ausdrücklichen Zustimmung in der Benachrichtigungszentrale und der erforderlichen Android-Berechtigung eingeschaltet.
+
+Mit Ihrer Zustimmung kann Firebase ein technisches Registrierungstoken und Installationskennungen, das Thema der gewählten App-Sprache, IP-Adresse sowie technische Geräte- und Zustelldaten verarbeiten. Diese Angaben dienen der Zustellung. Finanzbeträge, Ausgaben, PIN, Notizinhalte, Aufnahmen oder Sicherungsdateien werden nicht in FCM-Nachrichten übertragen. Der Entwickler betreibt keine eigene Nutzertoken-Datenbank.
+
+Die Nachrichtensprache richtet sich nach der App-Einstellung, nicht zwingend nach der Android-Sprache. Beim Sprachwechsel versucht die App, das alte Thema zuerst abzumelden und anschließend das neue zu abonnieren. Ohne Internet können Änderungen und Abmeldungen bis zur nächsten Verbindung ausstehen. Eine Zustellung ist nicht garantiert; Benachrichtigungen können je nach Geräteeinstellung auf dem Sperrbildschirm erscheinen.
+
+Sie können diese Mitteilungen jederzeit in der Benachrichtigungszentrale deaktivieren. Die Option ist unabhängig von lokalen Erinnerungen, Analytics, Crashlytics, Performance Monitoring und Werbeeinstellungen. Google verarbeitet technische Daten gemäß seinen Datenschutzregeln. Ein Pro-Kauf ist nicht erforderlich.
+
+## Version 1.3.0: v4-Datensicherungen
+
+Seit Version 1.3.0 verwenden neue portable Datensicherungen das verschlüsselte Format v4 und lassen sich je nach Datei mit der ursprünglichen PIN oder einem kompatiblen Wiederherstellungscode öffnen. Alte Sicherungen können weiterhin die damaligen Zugangsdaten erfordern; eine PIN-Änderung schreibt alte Dateien nicht um. Automatische Pro-Sicherungen bleiben offline im ausgewählten Ordner mit eigenem Wiederherstellungsschlüssel. Audio kann separate verschlüsselte Archive erfordern. Keine Finanzdaten-Synchronisierung mit Entwickler-Servern.
+
+Aktuelle Funktionen: Ausgaben, Einnahmen, Prognosen, Diagramme und PDF-Berichte, regelmäßige Zahlungen, Raten, Aufgaben, Sprachnotizen, lokales OCR, PIN mit 8–16 Ziffern, Biometrie, verschlüsselte lokale Backups und Designs. Offizielle Mitteilungen sind freiwillig und benötigen eine kompatible App-Version.
+
+## Finanzielle Ruhe bei Google Play herunterladen
+
+Offizielle Android-App-Seite. Die Installation erfolgt über Google Play. [Google Play](https://play.google.com/store/apps/details?id=com.anspro.mymoney.app&hl=de_DE).
+
+![QR Code — Google Play](assets/qr-play-de.png)

@@ -75,3 +75,27 @@ The app is not specifically directed at children. Its use should follow the Goog
 
 We will update this policy if features, providers or legal requirements change. The date above identifies the current revision.
 
+---
+
+<!-- FCM-20261120: atualização pública da política 1.3.0 -->
+## Optional official announcements — Firebase Cloud Messaging
+
+On supported Android app versions, Financial Peace can send general announcements about updates, maintenance and new features through Google Firebase Cloud Messaging (FCM). This feature is off by default and only starts after you opt in through the Notification Center and grant the relevant Android notification permission.
+
+With your consent, Firebase may process a technical registration token and installation identifiers, the topic for your selected app language, an IP address and technical device and delivery data. These are used to route announcements. The app does not include financial balances, expenses, PINs, note contents, recordings or backup files in FCM messages. The developer does not operate a personal database of users’ FCM tokens.
+
+Messages follow the language chosen inside the app, which may differ from your Android system language. If you change languages, the app attempts to leave the previous topic before joining the new one. While offline, changes and unsubscribe requests may remain pending until connectivity returns. Delivery is not guaranteed; notification content may appear on the lock screen depending on device settings.
+
+You can opt out at any time in the Notification Center. This is separate from local bill and task reminders, optional Firebase Analytics, Crashlytics and Performance Monitoring settings, and advertising choices. Google processes technical information under its own privacy policies. A Pro purchase is not required.
+
+## Version 1.3.0: v4 backup and current features
+
+In version 1.3.0, newer portable data backups use format v4, with encryption and recovery using the original PIN or a compatible app recovery code, depending on the file. Older backups may still require their original credentials; changing your PIN does not rewrite earlier backup files. Pro automatic backups remain offline in a folder you choose, with a separate recovery key. Audio may require separate encrypted archives. Personal financial records are not synchronized with a developer-operated server.
+
+Current features include expenses, forecasts, salary and income, charts and PDF reports, recurring bills, installments, tasks, voice notes and on-device OCR, an 8–16-digit PIN, biometrics, encrypted local backups and visual themes. Official announcements are optional and require a compatible app version.
+
+## Get Financial Peace on Google Play
+
+Official Android app listing. Installation is handled by Google Play. [Google Play](https://play.google.com/store/apps/details?id=com.anspro.mymoney.app&hl=en_US).
+
+![QR Code — Google Play](assets/qr-play-en.png)
