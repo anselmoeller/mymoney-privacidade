@@ -1,0 +1,18 @@
+/* Paz Financeira — link de retorno ao topo; sem dependencias externas. */
+#pf-btt-start-20261121{position:absolute;top:0;left:0;width:1px;height:1px;overflow:hidden;pointer-events:none}
+html body a.pf-backtotop-20261121{
+  box-sizing:border-box;position:fixed;right:max(17px,env(safe-area-inset-right));
+  bottom:max(24px,env(safe-area-inset-bottom));z-index:90;display:inline-flex;
+  gap:8px;align-items:center;justify-content:center;min-height:46px;
+  padding:10px 16px;background:#09583e;color:#fff;text-decoration:none;
+  font:700 14px/1.2 system-ui,-apple-system,"Segoe UI",Arial,sans-serif;
+  border:1px solid rgba(255,255,255,.2);border-radius:999px;
+  box-shadow:0 5px 21px rgba(0,0,0,.2);transition:opacity .2s ease,transform .2s ease,box-shadow .2s ease;
+}
+html body a.pf-backtotop-20261121:hover{background:#087851;color:#fff;box-shadow:0 7px 24px rgba(0,0,0,.25)}
+html body a.pf-backtotop-20261121:focus-visible{outline:3px solid #f6c34a;outline-offset:3px}
+html body a.pf-backtotop-20261121 svg{width:17px;height:17px;flex-shrink:0;stroke:currentColor}
+html.pf-btt-enhanced body a.pf-backtotop-20261121:not(.pf-btt-visible){opacity:0;transform:translateY(12px);pointer-events:none;visibility:hidden}
+html.pf-btt-enhanced body a.pf-backtotop-20261121.pf-btt-visible{opacity:1;transform:translateY(0);visibility:visible}
+@media(max-width:600px){html body a.pf-backtotop-20261121{right:14px;bottom:max(18px,env(safe-area-inset-bottom));min-height:44px;padding:10px 13px}}
+@media(prefers-reduced-motion:reduce){html body a.pf-backtotop-20261121{transition:none!important}}
