@@ -1,3 +1,37 @@
+<!-- pf-windows-20261124:start -->
+## Informativa sulla privacy — Android e Windows
+
+**Integrazione Windows: 24 novembre 2026**
+
+Questa informativa riguarda le edizioni Android e Windows sviluppate da Anselmo Eller. Le sezioni originali qui sotto descrivono Android (Serenità Finanziaria); questa integrazione illustra le pratiche specifiche di Windows (Pace Finanziaria). L’edizione Windows è in preparazione per Microsoft Store e non è ancora pubblicata. Le informazioni sulle licenze descrivono l’integrazione prevista, da verificare prima del lancio.
+
+### Dati e sicurezza locale
+
+Windows consente di salvare spese, entrate, attività, promemoria, note, diario, obiettivi di risparmio, ricevute, audio, testo riconosciuto e preferenze. I database strutturati sono cifrati localmente con AES-256-GCM; la chiave è protetta dall’archiviazione sicura di Windows (Electron safeStorage/DPAPI). Il PIN di accesso facoltativo comprende da 8 a 16 cifre. Non esistono un account online presso lo sviluppatore o una sincronizzazione automatica dei dati. La protezione dipende dal dispositivo e non elimina tutti i rischi. La biometria Windows Hello non è ancora disponibile.
+
+### Microfono, dettatura e OCR
+
+Il microfono viene usato quando richiedi una registrazione. La trascrizione integrata tenta di utilizzare un riconoscitore vocale locale Windows compatibile con la lingua; la disponibilità dipende dalle autorizzazioni, dai componenti installati e dal formato audio. Se utilizzi la digitazione vocale Windows (Win + H), il servizio vocale può elaborare informazioni online in base alle tue impostazioni. L’OCR usa i file da te selezionati e strumenti locali compatibili. Le registrazioni non vengono inviate automaticamente allo sviluppatore per la trascrizione. Per la trascrizione, l’app crea un file WAV temporaneo locale e tenta di rimuoverlo al termine. Un errore o un’interruzione improvvisa può lasciare file temporanei sul dispositivo.
+
+### Backup, file e notifiche
+
+I backup portatili sono cifrati e protetti dalle credenziali richieste dal formato. I backup Windows possono usare un PIN distinto da 8 a 16 cifre. I backup automatici Pro utilizzano la cartella scelta e richiedono che l’app sia in esecuzione e l’archivio protetto accessibile; non sono previsti backup cloud dello sviluppatore. Conserva le credenziali in sicurezza. PDF, TXT e altri file esportati possono contenere dati personali e non sono protetti automaticamente dal PIN. Le notifiche locali dipendono dalle autorizzazioni Windows; titoli e date possono comparire sulla schermata di blocco.
+
+### Acquisti Pro e servizi esterni
+
+La distribuzione e lo sblocco Pro mediante acquisto unico su Microsoft Store sono in preparazione. Una volta integrati, Microsoft elaborerà pagamenti e convalida della licenza; l’app non dovrebbe ricevere i dati completi della carta. Microsoft può trattare dati di account, transazione, licenza, dispositivo e connessione secondo le proprie politiche. Gli acquisti Android e Windows sono indipendenti. L’edizione Windows attuale non contiene pubblicità, AdMob, comunicazioni Firebase o telemetria remota dello sviluppatore. Le consultazioni facoltative dei cambi Frankfurter usano codici valuta, non saldi o note; il fornitore può ricevere dati tecnici di connessione. I collegamenti esterni seguono le politiche dei rispettivi servizi.
+
+### Conservazione, cancellazione e diritti
+
+I dati locali vengono conservati finché non vengono cancellati o rimossi dal dispositivo. Puoi consultare, correggere ed eliminare i dati nell’app; backup ed esportazioni vanno rimossi separatamente. Lo sviluppatore non può cancellare o recuperare da remoto il tuo database locale. Per domande sulla privacy ed esercizio dei diritti previsti dalla legge applicabile, contatta moneyproapp@gmail.com. Le richieste su acquisti e licenze possono richiedere anche il supporto Microsoft.
+
+[Informativa sulla privacy Microsoft](https://privacy.microsoft.com/privacystatement) · moneyproapp@gmail.com
+
+---
+
+**Android (Serenità Finanziaria) — disponibile su Google Play**
+<!-- pf-windows-20261124:end -->
+
 # Informativa sulla privacy — Serenità Finanziaria
 
 **Ultimo aggiornamento:** 15 novembre 2026  

@@ -1,3 +1,37 @@
+<!-- pf-windows-20261124:start -->
+## Politique de confidentialité — Android et Windows
+
+**Complément Windows : 24 novembre 2026**
+
+Cette politique couvre les éditions Android et Windows développées par Anselmo Eller. Les sections d’origine ci-dessous décrivent Android ; ce complément précise les pratiques propres à Windows. L’édition Windows est en préparation pour le Microsoft Store et n’a pas encore été publiée. Les informations sur les licences décrivent l’intégration prévue, à vérifier avant le lancement.
+
+### Données et sécurité locale
+
+Windows permet de conserver dépenses, revenus, tâches, rappels, notes, journal, objectifs d’épargne, reçus, audio, texte reconnu et préférences. Les bases structurées sont chiffrées localement avec AES-256-GCM ; la clé est protégée par le stockage sécurisé de Windows (Electron safeStorage/DPAPI). Le code PIN d’accès facultatif comporte 8 à 16 chiffres. Il n’existe ni compte en ligne chez le développeur ni synchronisation automatique des données. La protection dépend de l’appareil et n’élimine pas tous les risques. La biométrie Windows Hello n’est pas encore disponible.
+
+### Microphone, dictée et OCR
+
+Le microphone est utilisé lorsque vous demandez un enregistrement. La transcription intégrée tente d’utiliser un moteur local Windows compatible avec la langue ; sa disponibilité dépend des autorisations, composants installés et formats audio. Si vous utilisez la saisie vocale Windows (Win + H), le service vocal de Windows peut traiter des informations en ligne selon vos réglages. L’OCR utilise les fichiers que vous choisissez et des outils locaux compatibles. Les enregistrements ne sont pas envoyés automatiquement au développeur pour transcription. Pour transcrire, l’application crée un fichier WAV temporaire local et tente de le supprimer à la fin. Une panne ou interruption brutale peut laisser des fichiers temporaires sur l’appareil.
+
+### Sauvegardes, fichiers et notifications
+
+Les sauvegardes portables sont chiffrées et protégées par les identifiants requis par leur format. Les sauvegardes Windows peuvent utiliser un PIN distinct de 8 à 16 chiffres. Les sauvegardes automatiques Pro utilisent le dossier choisi et nécessitent que l’application fonctionne et que le coffre soit accessible ; le développeur ne fournit pas de sauvegarde en ligne. Conservez les identifiants en lieu sûr. Les PDF, TXT et autres fichiers exportés peuvent contenir des données personnelles et ne sont pas automatiquement protégés par le PIN. Les notifications locales dépendent des autorisations Windows ; les titres et dates peuvent apparaître sur l’écran verrouillé.
+
+### Achats Pro et services externes
+
+La distribution et le déblocage Pro par achat unique via le Microsoft Store sont en préparation. Une fois intégrés, Microsoft traitera le paiement et la validation de licence ; l’application ne devrait pas recevoir les coordonnées complètes de carte. Microsoft peut traiter des données de compte, transaction, licence, appareil et connexion selon ses propres politiques. Les achats Android et Windows sont indépendants. L’édition Windows actuelle ne comporte ni publicité, ni AdMob, ni annonces Firebase, ni télémétrie distante du développeur. Les consultations facultatives de taux de change Frankfurter utilisent des codes de devises, non les soldes ou notes ; le fournisseur peut recevoir des données techniques de connexion. Les liens externes relèvent des politiques de chaque service.
+
+### Conservation, suppression et droits
+
+Les données locales sont conservées jusqu’à leur suppression ou leur retrait de l’appareil. Vous pouvez consulter, corriger et effacer vos données dans l’application ; les sauvegardes et exportations doivent être supprimées séparément. Le développeur ne peut ni effacer ni restaurer à distance votre base locale. Pour les questions de confidentialité et l’exercice de vos droits selon la loi applicable, contactez moneyproapp@gmail.com. Les demandes liées aux achats et licences peuvent également nécessiter l’assistance de Microsoft.
+
+[Déclaration de confidentialité Microsoft](https://privacy.microsoft.com/privacystatement) · moneyproapp@gmail.com
+
+---
+
+**Android — disponible sur Google Play**
+<!-- pf-windows-20261124:end -->
+
 # Politique de confidentialité — Paix Financière
 
 **Dernière mise à jour:** 15 novembre 2026  

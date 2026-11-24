@@ -1,3 +1,37 @@
+<!-- pf-windows-20261124:start -->
+## Privacy policy — Android and Windows
+
+**Windows supplement: November 24, 2026**
+
+This policy covers the Android and Windows editions developed by Anselmo Eller. The original sections below describe Android; this supplement sets out the Windows-specific practices. The Windows edition is being prepared for the Microsoft Store and has not been publicly released. Licensing information describes the planned integration, subject to review before release.
+
+### Data and local security
+
+Windows can store expenses, income, tasks, reminders, notes, journals, savings goals, receipts, audio, recognized text and preferences. Structured databases are encrypted locally with AES-256-GCM; the key is protected by Windows secure storage (Electron safeStorage/DPAPI). The optional access PIN has 8–16 digits. There is no online developer account or automatic record synchronization. Protection depends on the device and cannot eliminate all risks. Windows Hello biometrics are not yet available.
+
+### Microphone, dictation and OCR
+
+The microphone is used when you request recording. Built-in transcription attempts to use a compatible local Windows speech recognizer; availability depends on permissions, installed components, language and audio format. If you use Windows voice typing (Win + H), the Windows speech service may process information online according to your settings. OCR uses files you select and compatible local tools. Recordings are not automatically sent to the developer for transcription. For transcription, the app creates a local temporary WAV file and attempts to remove it when finished. A failure or abrupt interruption may leave temporary files on the device.
+
+### Backups, files and notifications
+
+Portable backups are encrypted and protected by the credential required by their format. Windows backups may use a separate 8–16 digit backup PIN. Pro automatic backups use the selected folder and require the app to be running with its vault available; there is no developer cloud backup. Keep your credential safe. Exported PDFs, TXT and other files may contain personal data and are not automatically protected by the app PIN. Local notifications depend on Windows permissions; titles and dates may appear on the lock screen.
+
+### Pro purchases and external services
+
+Distribution and one-time Pro unlocking through the Microsoft Store are being prepared. Once implemented, Microsoft will process payment and license validation; the app should not receive complete card details. Microsoft may process account, transaction, license, device and connection data under its own policies. Android and Windows purchases are independent. The current Windows edition does not include ads, AdMob, Firebase announcements or developer remote telemetry. Optional Frankfurter exchange-rate queries use currency codes, not balances or notes; the provider may receive technical connection data. External links follow the relevant service policies.
+
+### Retention, deletion and rights
+
+Local data is retained until deleted or removed from the device. You can access, correct and clear records in the app; backups and exports must be removed separately. The developer cannot remotely delete or recover your local database. For privacy questions and rights under applicable law, contact moneyproapp@gmail.com. Purchase and licensing requests may also require Microsoft support.
+
+[Microsoft Privacy Statement](https://privacy.microsoft.com/privacystatement) · moneyproapp@gmail.com
+
+---
+
+**Android — available on Google Play**
+<!-- pf-windows-20261124:end -->
+
 # Privacy Policy — Financial Peace
 
 **Last updated:** November 15, 2026  

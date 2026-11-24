@@ -1,3 +1,37 @@
+<!-- pf-windows-20261124:start -->
+## Datenschutzerklärung — Android und Windows
+
+**Windows-Ergänzung: 24. November 2026**
+
+Diese Erklärung gilt für die von Anselmo Eller entwickelten Android- und Windows-Versionen. Die ursprünglichen Abschnitte unten beschreiben Android (Finanzielle Ruhe); diese Ergänzung erläutert die Besonderheiten von Windows (Finanzieller Frieden). Die Windows-Version wird für den Microsoft Store vorbereitet und ist noch nicht öffentlich erhältlich. Die Lizenzangaben beschreiben die geplante Integration, die vor Veröffentlichung überprüft wird.
+
+### Daten und lokale Sicherheit
+
+Windows kann Ausgaben, Einnahmen, Aufgaben, Erinnerungen, Notizen, Tagebuch, Sparziele, Belege, Audio, erkannten Text und Einstellungen speichern. Strukturierte Datenbanken werden lokal mit AES-256-GCM verschlüsselt; der Schlüssel wird durch den sicheren Windows-Speicher (Electron safeStorage/DPAPI) geschützt. Die optionale Zugangs-PIN hat 8 bis 16 Ziffern. Es gibt kein Online-Konto beim Entwickler und keine automatische Datensynchronisierung. Der Schutz hängt vom Gerät ab und beseitigt nicht alle Risiken. Windows Hello ist noch nicht verfügbar.
+
+### Mikrofon, Diktat und OCR
+
+Das Mikrofon wird verwendet, wenn Sie eine Aufnahme anfordern. Die integrierte Transkription versucht eine kompatible lokale Windows-Spracherkennung zu nutzen; Verfügbarkeit hängt von Berechtigungen, installierten Komponenten, Sprache und Audioformat ab. Bei Verwendung der Windows-Spracheingabe (Win + H) kann der Windows-Sprachdienst Informationen entsprechend Ihren Einstellungen online verarbeiten. OCR nutzt ausgewählte Dateien und kompatible lokale Werkzeuge. Aufnahmen werden nicht automatisch zur Transkription an den Entwickler gesendet. Zur Transkription erstellt die App eine lokale temporäre WAV-Datei und versucht, sie danach zu löschen. Bei Fehlern oder abruptem Abbruch können temporäre Dateien auf dem Gerät verbleiben.
+
+### Sicherungen, Dateien und Benachrichtigungen
+
+Portable Sicherungen sind verschlüsselt und durch die vom Format verlangten Zugangsdaten geschützt. Windows-Sicherungen können eine separate PIN mit 8 bis 16 Ziffern nutzen. Automatische Pro-Sicherungen verwenden den ausgewählten Ordner und setzen eine laufende App und einen verfügbaren Datentresor voraus; es gibt keine Cloud-Sicherung des Entwicklers. Bewahren Sie die Zugangsdaten sicher auf. Exportierte PDF-, TXT- und andere Dateien können personenbezogene Daten enthalten und sind nicht automatisch durch die App-PIN geschützt. Lokale Benachrichtigungen hängen von Windows-Berechtigungen ab; Titel und Daten können auf dem Sperrbildschirm erscheinen.
+
+### Pro-Käufe und externe Dienste
+
+Vertrieb und einmalige Pro-Freischaltung über den Microsoft Store werden vorbereitet. Nach der Integration verarbeitet Microsoft Zahlung und Lizenzprüfung; die App soll keine vollständigen Kartendaten erhalten. Microsoft kann Konto-, Transaktions-, Lizenz-, Geräte- und Verbindungsdaten gemäß eigenen Richtlinien verarbeiten. Android- und Windows-Käufe sind unabhängig. Die aktuelle Windows-Version enthält keine Werbung, kein AdMob, keine Firebase-Mitteilungen und keine Ferntelemetrie des Entwicklers. Optionale Frankfurter-Wechselkursabfragen verwenden Währungscodes, keine Kontostände oder Notizen; der Anbieter kann technische Verbindungsdaten erhalten. Für externe Links gelten die Richtlinien der jeweiligen Dienste.
+
+### Speicherdauer, Löschung und Rechte
+
+Lokale Daten bleiben gespeichert, bis sie gelöscht oder vom Gerät entfernt werden. Sie können Einträge in der App einsehen, berichtigen und löschen; Sicherungen und Exporte müssen separat gelöscht werden. Der Entwickler kann Ihre lokale Datenbank nicht aus der Ferne löschen oder wiederherstellen. Bei Datenschutzfragen und zur Ausübung Ihrer Rechte nach geltendem Recht wenden Sie sich an moneyproapp@gmail.com. Kauf- und Lizenzfragen können auch Microsoft-Support erfordern.
+
+[Microsoft-Datenschutzerklärung](https://privacy.microsoft.com/privacystatement) · moneyproapp@gmail.com
+
+---
+
+**Android (Finanzielle Ruhe) — bei Google Play verfügbar**
+<!-- pf-windows-20261124:end -->
+
 # Datenschutzerklärung — Finanzielle Ruhe
 
 **Letzte Aktualisierung:** 15. November 2026  

@@ -1,3 +1,37 @@
+<!-- pf-windows-20261124:start -->
+## Política de privacidad — Android y Windows
+
+**Anexo de Windows: 24 de noviembre de 2026**
+
+Esta política abarca las versiones Android y Windows desarrolladas por Anselmo Eller. Las secciones originales que siguen describen Android; este anexo establece las particularidades de Windows. La versión Windows se prepara para Microsoft Store y aún no se ha publicado. La información sobre licencias describe la integración prevista, sujeta a revisión antes del lanzamiento.
+
+### Datos y seguridad local
+
+Windows permite guardar gastos, ingresos, tareas, recordatorios, notas, diario, metas de ahorro, recibos, audio, texto reconocido y preferencias. Las bases estructuradas se cifran localmente con AES-256-GCM; la clave se protege mediante el almacenamiento seguro de Windows (Electron safeStorage/DPAPI). El PIN de acceso opcional tiene entre 8 y 16 dígitos. No hay cuenta en línea del desarrollador ni sincronización automática de registros. La protección depende del dispositivo y no elimina todos los riesgos. La biometría Windows Hello aún no está disponible.
+
+### Micrófono, dictado y OCR
+
+El micrófono se utiliza cuando solicitas grabar. La transcripción interna intenta usar un reconocedor local de Windows compatible con el idioma; su disponibilidad depende de los permisos, los componentes instalados y el formato de audio. Si utilizas el dictado de Windows (Win + H), su servicio de voz puede procesar información en línea según tu configuración. El OCR utiliza archivos elegidos por ti y herramientas locales compatibles. Las grabaciones no se envían automáticamente al desarrollador para transcribirlas. Para transcribir, la aplicación crea un archivo WAV temporal local e intenta eliminarlo al terminar. Un fallo o una interrupción brusca puede dejar archivos temporales en el dispositivo.
+
+### Copias de seguridad, archivos y notificaciones
+
+Las copias portátiles se cifran y protegen con la credencial que exige el formato. Las copias Windows pueden usar un PIN propio de 8 a 16 dígitos, independiente del PIN de acceso. Las copias automáticas Pro usan la carpeta elegida y requieren que la aplicación esté en ejecución y el almacén seguro disponible; no hay copias en la nube del desarrollador. Guarda la credencial en un lugar seguro. Los PDF, TXT y otros archivos exportados pueden contener datos personales y no están protegidos automáticamente por el PIN. Las notificaciones locales dependen de los permisos de Windows; los títulos y fechas pueden aparecer en la pantalla de bloqueo.
+
+### Compras Pro y servicios externos
+
+Se está preparando la distribución y el desbloqueo Pro mediante un pago único en Microsoft Store. Una vez implementado, Microsoft procesará el pago y la validación de la licencia; la aplicación no debería recibir los datos completos de la tarjeta. Microsoft puede tratar datos de cuenta, transacción, licencia, dispositivo y conexión según sus políticas. Las compras de Android y Windows son independientes. La versión Windows actual no incluye publicidad, AdMob, comunicados Firebase ni telemetría remota del desarrollador. Las consultas opcionales de cambio a Frankfurter usan códigos de moneda, no saldos ni notas; el proveedor puede recibir datos técnicos de conexión. Los enlaces externos se rigen por las políticas de cada servicio.
+
+### Conservación, eliminación y derechos
+
+Los datos locales se conservan hasta que se eliminen o retiren del dispositivo. Puedes consultar, corregir y borrar registros en la aplicación; las copias y exportaciones deben eliminarse por separado. El desarrollador no puede borrar ni recuperar remotamente tu base local. Para consultas de privacidad y derechos según la legislación aplicable, escribe a moneyproapp@gmail.com. Las consultas de compra y licencia también pueden requerir asistencia de Microsoft.
+
+[Declaración de privacidad de Microsoft](https://privacy.microsoft.com/privacystatement) · moneyproapp@gmail.com
+
+---
+
+**Android — disponible en Google Play**
+<!-- pf-windows-20261124:end -->
+
 # Política de privacidad — Paz Financiera
 
 **Última actualización:** 15 de noviembre de 2026  

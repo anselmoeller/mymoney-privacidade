@@ -1,3 +1,37 @@
+<!-- pf-windows-20261124:start -->
+## Kebijakan privasi — Android dan Windows
+
+**Tambahan Windows: 24 November 2026**
+
+Kebijakan ini mencakup edisi Android dan Windows yang dikembangkan oleh Anselmo Eller. Bagian asli di bawah menjelaskan Android (Ketenangan Finansial); tambahan ini menjelaskan praktik khusus Windows (Kedamaian Finansial). Edisi Windows sedang dipersiapkan untuk Microsoft Store dan belum dirilis untuk umum. Informasi lisensi menjelaskan integrasi yang direncanakan dan akan ditinjau sebelum peluncuran.
+
+### Data dan keamanan lokal
+
+Windows dapat menyimpan pengeluaran, pemasukan, tugas, pengingat, catatan, jurnal, target tabungan, kuitansi, audio, teks hasil pengenalan, dan preferensi. Basis data terstruktur dienkripsi secara lokal dengan AES-256-GCM; kunci dilindungi penyimpanan aman Windows (Electron safeStorage/DPAPI). PIN akses opsional terdiri dari 8–16 angka. Tidak ada akun daring pengembang atau sinkronisasi catatan otomatis. Perlindungan bergantung pada perangkat dan tidak menghilangkan semua risiko. Biometrik Windows Hello belum tersedia.
+
+### Mikrofon, dikte dan OCR
+
+Mikrofon digunakan saat Anda meminta perekaman. Transkripsi bawaan mencoba memakai pengenal suara lokal Windows yang kompatibel dengan bahasa; ketersediaan bergantung pada izin, komponen terpasang dan format audio. Jika Anda menggunakan pengetikan suara Windows (Win + H), layanan suara Windows dapat memproses informasi secara daring sesuai pengaturan Anda. OCR menggunakan berkas yang Anda pilih dan alat lokal yang kompatibel. Rekaman tidak dikirim otomatis ke pengembang untuk ditranskripsi. Untuk transkripsi, aplikasi membuat berkas WAV sementara lokal dan mencoba menghapusnya setelah selesai. Kegagalan atau penghentian mendadak dapat menyisakan berkas sementara pada perangkat.
+
+### Cadangan, berkas dan notifikasi
+
+Cadangan portabel dienkripsi dan dilindungi kredensial yang diperlukan formatnya. Cadangan Windows dapat memakai PIN tersendiri sepanjang 8–16 angka. Cadangan otomatis Pro menggunakan folder pilihan dan memerlukan aplikasi berjalan serta penyimpanan aman tersedia; tidak ada cadangan awan dari pengembang. Simpan kredensial dengan aman. PDF, TXT dan berkas ekspor lainnya dapat berisi data pribadi dan tidak otomatis dilindungi PIN aplikasi. Notifikasi lokal bergantung pada izin Windows; judul dan tanggal dapat muncul di layar terkunci.
+
+### Pembelian Pro dan layanan eksternal
+
+Distribusi dan pembukaan fitur Pro melalui pembayaran satu kali di Microsoft Store sedang dipersiapkan. Setelah diterapkan, Microsoft akan memproses pembayaran dan validasi lisensi; aplikasi tidak seharusnya menerima rincian kartu lengkap. Microsoft dapat memproses data akun, transaksi, lisensi, perangkat dan koneksi sesuai kebijakannya. Pembelian Android dan Windows terpisah. Edisi Windows saat ini tidak memiliki iklan, AdMob, pengumuman Firebase atau telemetri jarak jauh pengembang. Permintaan kurs Frankfurter opsional menggunakan kode mata uang, bukan saldo atau catatan; penyedia dapat menerima data teknis koneksi. Tautan eksternal mengikuti kebijakan layanan masing-masing.
+
+### Retensi, penghapusan dan hak
+
+Data lokal disimpan hingga dihapus atau dikeluarkan dari perangkat. Anda dapat mengakses, memperbaiki dan menghapus catatan di aplikasi; cadangan dan ekspor perlu dihapus terpisah. Pengembang tidak dapat menghapus atau memulihkan basis data lokal Anda dari jarak jauh. Untuk pertanyaan privasi dan hak sesuai hukum yang berlaku, hubungi moneyproapp@gmail.com. Pertanyaan pembelian dan lisensi mungkin juga memerlukan dukungan Microsoft.
+
+[Pernyataan privasi Microsoft](https://privacy.microsoft.com/privacystatement) · moneyproapp@gmail.com
+
+---
+
+**Android (Ketenangan Finansial) — tersedia di Google Play**
+<!-- pf-windows-20261124:end -->
+
 # Kebijakan Privasi — Ketenangan Finansial
 
 **Terakhir diperbarui:** 15 November 2026  

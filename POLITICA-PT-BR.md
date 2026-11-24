@@ -1,3 +1,37 @@
+<!-- pf-windows-20261124:start -->
+## Política de privacidade — Android e Windows
+
+**Complemento Windows: 24 de novembro de 2026**
+
+Esta política abrange as versões Android e Windows do aplicativo, desenvolvido por Anselmo Eller. As seções originais abaixo descrevem o Android; as regras específicas do Windows estão neste complemento. A versão Windows está em preparação para a Microsoft Store e ainda não foi lançada publicamente. As informações de licenciamento descrevem a integração planejada, sujeita à revisão antes do lançamento.
+
+### Dados e segurança local
+
+O Windows permite registrar despesas, rendas, tarefas, lembretes, notas, diário, metas de poupança, recibos, áudio, texto reconhecido e preferências. Os bancos estruturados são armazenados localmente com AES-256-GCM; a chave é protegida pelo armazenamento seguro do Windows (Electron safeStorage/DPAPI). O PIN de acesso é opcional, de 8 a 16 dígitos. Não há conta online do desenvolvedor nem sincronização automática de registros. A proteção depende do dispositivo e não elimina todos os riscos. A biometria Windows Hello ainda não está disponível.
+
+### Microfone, ditado e OCR
+
+O microfone é usado somente quando você solicita a gravação. A transcrição interna tenta usar um reconhecedor local do Windows compatível com o idioma; sua disponibilidade depende das permissões, componentes instalados e formato de áudio. Se você utilizar o ditado do sistema (Win + H), o serviço de voz do Windows poderá processar informações online conforme suas configurações. O OCR usa arquivos escolhidos por você e recursos locais compatíveis. Não há envio automático de gravações ao desenvolvedor para transcrição. Para transcrever, o aplicativo cria um arquivo WAV temporário local e tenta removê-lo ao terminar. Uma falha ou interrupção abrupta pode deixar arquivos temporários no dispositivo.
+
+### Backups, arquivos e notificações
+
+As cópias portáteis são criptografadas e protegidas pela credencial exigida pelo formato. Backups Windows podem utilizar um PIN próprio de 8 a 16 dígitos, independente do PIN de acesso. As cópias automáticas Pro usam a pasta escolhida e exigem que o programa esteja em execução e o cofre disponível; não há backup online do desenvolvedor. Mantenha a credencial em segurança. PDFs, TXT e outros arquivos exportados podem conter dados pessoais e não são automaticamente protegidos pelo PIN do app. As notificações locais dependem das permissões do Windows; títulos e datas podem ficar visíveis na tela bloqueada.
+
+### Compras Pro e serviços externos
+
+A distribuição e o desbloqueio Pro por compra única estão sendo preparados para a Microsoft Store. Quando implementado, o pagamento e a validação de licença serão processados pela Microsoft; o aplicativo não deverá receber os dados completos do cartão. A Microsoft poderá tratar dados de conta, transação, licença, dispositivo e conexão segundo suas políticas. Compras Android e Windows são independentes. A versão Windows atual não inclui publicidade, AdMob, comunicados Firebase nem telemetria remota do desenvolvedor. Consultas opcionais de câmbio à API Frankfurter usam códigos de moedas, não saldos ou notas; o provedor pode receber dados técnicos de conexão. Links externos seguem as políticas dos respectivos serviços.
+
+### Retenção, exclusão e direitos
+
+Os dados locais são mantidos até serem excluídos ou removidos do dispositivo. Você pode consultar, corrigir e limpar registros no aplicativo; backups e exportações devem ser removidos separadamente. O desenvolvedor não pode apagar ou recuperar remotamente seu banco local. Para dúvidas e direitos de privacidade conforme a legislação aplicável, inclusive LGPD, entre em contato com moneyproapp@gmail.com. Solicitações de compra e licença também podem exigir atendimento da Microsoft.
+
+[Política de privacidade da Microsoft](https://privacy.microsoft.com/privacystatement) · moneyproapp@gmail.com
+
+---
+
+**Android — disponível na Google Play**
+<!-- pf-windows-20261124:end -->
+
 # Política de Privacidade — Paz Financeira
 
 **Última atualização:** 15 de novembro de 2026  
